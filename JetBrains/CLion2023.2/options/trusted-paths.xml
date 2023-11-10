@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/1. COP 3530/projects/project-1-Kh1ng" value="true" />
+        <entry key="$USER_HOME$/Dropbox/1. COP 3530/projects/project-2-Kh1ng" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

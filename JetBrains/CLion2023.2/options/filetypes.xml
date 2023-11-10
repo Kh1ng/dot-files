@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="test-room1" type="AUTO_DETECTED" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,100 @@
+game:
+  exe: /home/khing/Games/jagex-launcher/drive_c/Program Files (x86)/Jagex Launcher/JagexLauncher.exe
+  prefix: /home/khing/Games/jagex-launcher
+game_slug: jagex-launcher
+name: Jagex Launcher
+requires: null
+script:
+  files:
+  - installer: https://github.com/TormStorm/jagex-launcher-linux/releases/download/v1.0.1/installer.py
+  - requirements: https://github.com/TormStorm/jagex-launcher-linux/releases/download/v1.0.1/requirements.txt
+  - runelite: https://github.com/runelite/launcher/releases/download/2.6.9/RuneLite.jar
+  - runelite-launcher: https://github.com/TormStorm/jagex-launcher-linux/releases/download/v1.0.1/runelite.sh
+  - hdos: https://cdn.hdos.dev/launcher/latest/hdos-launcher.jar
+  - hdos-launcher: https://github.com/TormStorm/jagex-launcher-linux/releases/download/v1.0.1/hdos.sh
+  - steamdeck-settings: https://github.com/TormStorm/jagex-launcher-linux/releases/download/v1.0.1/steamdeck-settings.properties
+  game:
+    exe: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/JagexLauncher.exe
+    prefix: $GAMEDIR
+  installer:
+  - input_menu:
+      id: EULA
+      options:
+      - {}
+      - {}
+      preselect: decline
+  - task:
+      arch: win64
+      prefix: /home/khing/Games/jagex-launcher
+      wine_path: wine
+  - task:
+      arch: win64
+      key: InstallLocation
+      path: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\RuneLite
+        Launcher_is1
+      prefix: /home/khing/Games/jagex-launcher
+      type: REG_SZ
+      value: C:\\Program Files (x86)\\Jagex Launcher\\Games\\RuneLite
+      wine_path: wine
+  - task:
+      arch: win64
+      key: InstallLocation
+      path: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\HDOS
+        Launcher_is1
+      prefix: /home/khing/Games/jagex-launcher
+      type: REG_SZ
+      value: C:\\Program Files (x86)\\Jagex Launcher\\Games\\HDOS
+      wine_path: wine
+  - execute:
+      command: "# Adding this duplicate check for the EULA, because otherwise the\
+        \ user could go back, and then forward in the installer and lutris skips that\
+        \ check for some reason.\nif [ \"$INPUT_EULA\" = \"accept\" ]; then\n    echo\
+        \ \"End user licence agreement accepted, continuing installation...\"\nelse\n\
+        \    echo \"End user licence agreement must be accepted before continuing,\
+        \ quitting installation...\"\n    exit 1\nfi\nmkdir -p \"$GAMEDIR/drive_c/Program\
+        \ Files (x86)/Jagex Launcher\"\ncd \"$GAMEDIR/drive_c/Program Files (x86)/Jagex\
+        \ Launcher\"\npython3 -m venv env\nsource env/bin/activate\npython3 -m pip\
+        \ install -r \"$requirements\"\npython3 \"$installer\"\n"
+  - task:
+      arch: win64
+      prefix: /home/khing/Games/jagex-launcher
+      wine_path: wine
+  - execute:
+      command: mkdir -p "$GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/"
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/RuneLite
+      src: runelite
+  - chmodx: runelite
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/RuneLite
+      src: runelite-launcher
+  - chmodx: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/RuneLite/runelite.sh
+  - execute:
+      command: ln -s "$GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/RuneLite/runelite.sh"
+        "$GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/RuneLite/RuneLite.exe"
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/HDOS
+      src: hdos
+  - chmodx: hdos
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/HDOS
+      src: hdos-launcher
+  - chmodx: $GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/HDOS/hdos.sh
+  - execute:
+      command: ln -s "$GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/HDOS/hdos.sh"
+        "$GAMEDIR/drive_c/Program Files (x86)/Jagex Launcher/Games/HDOS/HDOS.exe"
+  - merge:
+      dst: $GAMEDIR
+      src: steamdeck-settings
+  require-binaries: python3
+  wine:
+    overrides:
+      jscript.dll: native
+slug: jagex-launcher-installer
+system: {}
+variables: {}
+version: Installer
+wine:
+  overrides:
+    jscript.dll: native
+year: null

@@ -1,0 +1,85 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="project-1-Kh1ng" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project-1-Kh1ng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/khing/Dropbox/1. COP 3530/projects/project-1-Kh1ng}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$">
+        <shellCommand>
+          <arg value="/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1832000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" id="Pull Requests" visible="true" weight="0.26839954" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26839954" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.22652915" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.22652915" />
+      <window_info active="true" anchor="right" id="Notifications" order="0" visible="true" weight="0.26839954" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="github.copilotToolWindow" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25" />
+      <unified_weights bottom="0.22652915" left="0.26839954" right="0.26839954" />
+    </layoutV2>
+    <recentWindows>
+      <value>Pull Requests</value>
+      <value>Terminal</value>
+      <value>Build</value>
+      <value>Notifications</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1225" y="353" key="SettingsEditor" timestamp="1696089043103">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1225" y="353" key="SettingsEditor/0.0.3440.1440/3440.0.1920.1080@0.0.3440.1440" timestamp="1696089043103" />
+    <state x="1481" y="613" width="478" height="214" key="makefile.clean.confirm.dialog" timestamp="1696109535687">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1481" y="613" width="478" height="214" key="makefile.clean.confirm.dialog/0.0.3440.1440/3440.0.1920.1080@0.0.3440.1440" timestamp="1696109535687" />
+  </component>
+</project>

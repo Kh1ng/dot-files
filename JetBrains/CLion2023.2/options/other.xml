@@ -1,0 +1,70 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "InstalledPluginsSearchHistory": "memory l\nmemory\nmemor\nmem\nmark",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+    "MarketplacePluginsSearchHistory": "mark\ncopilot\ncopilo",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "SettingsSearchHistory": "mark",
+    "appcds.runOnSecondStart": "CL-232.9921.42-2c302b058a676dcbcdbe00b4d25aeb2af4edafd429871e429d757a77943ba4ed",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "CL-232.9921.42",
+    "clion.initialConfigPerformed": "true",
+    "evlsprt3.232": "6",
+    "experimental.ui.used.version": "232.9921.42",
+    "file.gist.reindex.count": "3",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "12.0",
+    "fontSizeToResetEditor": "12.0",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "gotit.previous.run": "CL-232.9921.42",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/khing/Dropbox/1. COP 3530/projects/project-2-Kh1ng",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "qualified.names.node.provider.file.structure.state": "true",
+    "registry.to.advanced.settings.migration.build": "CL-232.9921.42",
+    "structure.view.defaults.are.configured": "true",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "5.1.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/khing/Dropbox/1. COP 3530/projects/project-2-Kh1ng",
+      "/home/khing/Dropbox/1. COP 3530/projects/project-1-Kh1ng"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips"><![CDATA[{
+  "shownTips": {
+    "CtrlW": 1696148583472,
+    "QuickFix": 1698363169193,
+    "FindInPath": 1696378787188
+  },
+  "proposedTips": {
+    "QuickFix": 1698363168228,
+    "FindInPath": 1696378786514
+  },
+  "tipsOrderSeed": 1696148580537
+}]]></component>
+</application>

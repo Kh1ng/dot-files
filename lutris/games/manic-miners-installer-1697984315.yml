@@ -1,0 +1,27 @@
+game:
+  arch: win64
+  exe: /home/khing/Games/manic-miners/ManicMiners/ManicMiners.exe
+  prefix: /home/khing/Games/manic-miners/pfx
+game_slug: manic-miners
+name: Manic Miners
+requires: null
+script:
+  files:
+  - archive: N/A:Please select the itch.io archive
+  game:
+    arch: win64
+    exe: $GAMEDIR/ManicMiners/ManicMiners.exe
+    prefix: $GAMEDIR/pfx
+  installer:
+  - extract:
+      dst: $GAMEDIR/ManicMiners/
+      file: $archive
+  wine:
+    version: lutris-GE-Proton8-15-x86_64
+slug: manic-miners-installer
+system: {}
+variables: {}
+version: Installer
+wine:
+  version: lutris-GE-Proton8-15-x86_64
+year: 2023

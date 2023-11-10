@@ -1,0 +1,40 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/1. COP 3530/projects/project-1-Kh1ng">
+          <value>
+            <RecentProjectMetaInfo frameTitle="project-1-Kh1ng – README.md" projectWorkspaceId="2W9d8wiyzEeOTUpsMg4eKZxw77x">
+              <option name="activationTimestamp" value="1698363173170" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-232.9921.42" />
+              <option name="buildTimestamp" value="1694512386674" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="0" y="0" width="3440" height="1440" extendedState="6" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1696088971563" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Dropbox/1. COP 3530/projects/project-2-Kh1ng">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2XK1vKRWVrfWZBVnDepY6uEIZUq">
+              <option name="activationTimestamp" value="1698509240368" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-232.9921.42" />
+              <option name="buildTimestamp" value="1694512417575" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1698363186581" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Dropbox/1. COP 3530/projects/project-2-Kh1ng" />
+  </component>
+</application>
