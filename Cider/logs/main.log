@@ -1,0 +1,592 @@
+[2023-10-01 03:04:13.781] [info]  [AppEvents] App started
+[2023-10-01 03:04:16.472] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2023-10-01 03:04:17.102] [info]  [AppEvents] App ready
+[2023-10-01 03:04:17.104] [info]  [Cider] Application is Ready. Creating Window.
+[2023-10-01 03:04:17.104] [info]  aa
+[2023-10-01 03:04:17.591] [info]  [Cider] Creating Window.
+[2023-10-01 03:04:17.598] [info]  Setting up handlers for local files
+[2023-10-01 03:04:17.600] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2023-10-01 03:04:17.627] [info]  WebSocketServer started on port: 26369
+[2023-10-01 03:04:17.631] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'updated',
+    version: '4.10.2652.2'
+  }
+}
+[2023-10-01 03:04:17.655] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 7815,
+      driverVendor: 'Nvidia',
+      driverVersion: '535.113.01',
+      gpuPreference: 0,
+      vendorId: 4318
+    }
+  ]
+}
+[2023-10-01 03:04:17.656] [info]  From here can you check for real changes, the initial scan has been completed.
+[2023-10-01 03:04:17.656] [info]  Cider client port: 9000
+[2023-10-01 03:04:17.657] [info]  Cider remote port: 6942
+[2023-10-01 03:04:17.658] [info]  remote broadcasted
+[2023-10-01 03:04:18.167] [info]  [DiscordRPC][connect] Successfully Connected to Discord. Authed for user: 170706558450270217.
+[2023-10-01 03:05:21.757] [info]  cookies {
+  'music.ampwebplay.itspod': '44',
+  'music.ampwebplay.pltvcid': '1a8a8cf6860d4ee7a18f1b76e742f293044',
+  'music.ampwebplay.pldfltcid': '96effafd646344fbb7fce3bf492c847f044',
+  'music.ampwebplay.itua': 'US',
+  'music.ampwebplay.media-user-token': 'Aq5VylODGW3ts9mCEGcH5anHEGDl0dWJZzXcJiBmIcmF37QY6b0rhoDck+avZ8VpkET5Yi3BJHbiTDCmo3+W0VTqECILT4FZAkDOqyfKVt6ykqE/f8avd2dtY4QJZxeUrS499Rji5aozC7Od2osLeEvP1JwTu4u4Pvc6GrllFZ1zixByxgzbQ613Ml6alo1uOzUPIdP09dfSkRjRn42Bo5Qc8rbwza6Eqf1T/DrHf32VSodJPQ==',
+  'music.ampwebplay.dslang': 'US-EN'
+}
+[2023-10-01 03:05:22.098] [info]  [DiscordRPC][connect] Successfully Connected to Discord. Authed for user: 170706558450270217.
+[2023-10-01 03:05:25.544] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-01 03:05:25.544] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-01 03:09:44.976] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-01 03:09:44.979] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-01 03:13:54.164] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-01 03:13:54.164] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-01 03:17:52.089] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-01 03:17:52.089] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-01 03:22:17.909] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-01 03:22:17.910] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-02 18:16:28.215] [warn]  Cider exited.
+[2023-10-03 20:20:33.809] [info]  [AppEvents] App started
+[2023-10-03 20:20:36.288] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2023-10-03 20:20:36.796] [info]  [AppEvents] App ready
+[2023-10-03 20:20:36.796] [info]  [Cider] Application is Ready. Creating Window.
+[2023-10-03 20:20:36.796] [info]  aa
+[2023-10-03 20:20:36.798] [info]  [Cider] Creating Window.
+[2023-10-03 20:20:36.803] [info]  Setting up handlers for local files
+[2023-10-03 20:20:36.804] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2023-10-03 20:20:36.829] [info]  WebSocketServer started on port: 26369
+[2023-10-03 20:20:36.833] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2652.2'
+  }
+}
+[2023-10-03 20:20:36.857] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 7815,
+      driverVendor: 'Nvidia',
+      driverVersion: '535.113.01',
+      gpuPreference: 0,
+      vendorId: 4318
+    }
+  ]
+}
+[2023-10-03 20:20:36.858] [info]  From here can you check for real changes, the initial scan has been completed.
+[2023-10-03 20:20:36.858] [info]  Cider client port: 9000
+[2023-10-03 20:20:36.859] [info]  Cider remote port: 6942
+[2023-10-03 20:20:36.860] [info]  remote broadcasted
+[2023-10-03 20:20:41.834] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-03 20:20:41.835] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-03 20:23:05.309] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-03 20:23:05.309] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-03 20:23:37.548] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-03 20:23:37.548] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-03 20:23:38.910] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-03 20:23:38.911] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-03 20:24:22.257] [info]  [DiscordRPC][connect] Successfully Connected to Discord. Authed for user: 170706558450270217.
+[2023-10-03 20:24:22.258] [info]  [DiscordRPC][connect] Restoring activity cache.
+[2023-10-03 20:32:58.993] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-03 20:32:58.993] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:18:40.588] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:18:40.588] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:22:00.853] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:22:00.853] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:23.212] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:23.213] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:31.324] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:31.325] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:32.717] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:32.717] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:34.013] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:34.014] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:35.451] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:35.451] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:26:37.311] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:26:37.311] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:30:19.453] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:30:19.453] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:34:46.062] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:34:46.062] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:37:37.096] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:37:37.096] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:41:48.202] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:41:48.203] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:41:49.750] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:41:49.751] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:50:43.558] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:50:43.559] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 17:51:03.164] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 17:51:03.164] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:14:30.507] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:14:30.507] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:17:41.989] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:17:41.989] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:21:35.915] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:21:35.915] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:24:45.205] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:24:45.206] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:28:57.209] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:28:57.210] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 18:32:32.463] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 18:32:32.463] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 20:54:17.474] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 20:54:17.475] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 20:54:18.879] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 20:54:18.879] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 20:58:21.838] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 20:58:21.838] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:00:56.510] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:00:56.510] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:05:16.387] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:05:16.387] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:11:28.502] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:11:28.502] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:12:02.425] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:12:02.425] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:12:05.161] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:12:05.161] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:20:00.999] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:20:00.999] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:24:12.380] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:24:12.380] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:27:34.144] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:27:34.144] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:32:35.307] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:32:35.308] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-04 21:33:23.269] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-04 21:33:23.269] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:20:04.910] [info]  [AppEvents] App started
+[2023-10-14 20:20:08.311] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2023-10-14 20:20:08.864] [info]  [AppEvents] App ready
+[2023-10-14 20:20:08.865] [info]  [Cider] Application is Ready. Creating Window.
+[2023-10-14 20:20:08.865] [info]  aa
+[2023-10-14 20:20:08.868] [info]  [Cider] Creating Window.
+[2023-10-14 20:20:08.874] [info]  Setting up handlers for local files
+[2023-10-14 20:20:08.876] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2023-10-14 20:20:08.901] [info]  WebSocketServer started on port: 26369
+[2023-10-14 20:20:08.905] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2652.2'
+  }
+}
+[2023-10-14 20:20:08.929] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 7815,
+      driverVendor: 'Nvidia',
+      driverVersion: '535.113.01',
+      gpuPreference: 0,
+      vendorId: 4318
+    }
+  ]
+}
+[2023-10-14 20:20:08.930] [info]  From here can you check for real changes, the initial scan has been completed.
+[2023-10-14 20:20:08.930] [info]  Cider client port: 9000
+[2023-10-14 20:20:08.931] [info]  Cider remote port: 6942
+[2023-10-14 20:20:08.932] [info]  remote broadcasted
+[2023-10-14 20:20:12.003] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:20:12.003] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:20:14.705] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:20:14.705] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:24:18.791] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:24:18.791] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:26:35.055] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:26:35.056] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:26:37.658] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:26:37.658] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:30:33.878] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:30:33.879] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:41:26.029] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:41:26.029] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:42:16.789] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:42:16.790] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:53:09.994] [info]  [DiscordRPC][connect] Successfully Connected to Discord. Authed for user: 170706558450270217.
+[2023-10-14 20:53:09.994] [info]  [DiscordRPC][connect] Restoring activity cache.
+[2023-10-14 20:53:30.193] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:53:30.194] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:55:56.629] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:55:56.630] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-14 20:59:53.850] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-14 20:59:53.850] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:49:01.818] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:49:01.818] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:49:04.727] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:49:04.727] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:49:08.366] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:49:08.366] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:49:14.827] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:49:14.827] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:49:21.319] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:49:21.319] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:54:09.420] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:54:09.420] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 05:58:17.466] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 05:58:17.467] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 06:14:32.862] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 06:14:32.863] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-15 20:30:15.892] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-10-15 20:30:15.892] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-10-19 21:12:41.003] [warn]  Cider exited.
+[2023-11-07 06:23:33.283] [info]  [AppEvents] App started
+[2023-11-07 06:23:35.849] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2023-11-07 06:23:36.514] [info]  [AppEvents] App ready
+[2023-11-07 06:23:36.515] [info]  [Cider] Application is Ready. Creating Window.
+[2023-11-07 06:23:36.515] [info]  aa
+[2023-11-07 06:23:36.518] [info]  [Cider] Creating Window.
+[2023-11-07 06:23:36.523] [info]  Setting up handlers for local files
+[2023-11-07 06:23:36.525] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2023-11-07 06:23:36.552] [info]  WebSocketServer started on port: 26369
+[2023-11-07 06:23:36.557] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2023-11-07 06:23:36.581] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 7815,
+      driverVendor: 'Nvidia',
+      driverVersion: '535.113.01',
+      gpuPreference: 0,
+      vendorId: 4318
+    }
+  ]
+}
+[2023-11-07 06:23:36.582] [info]  From here can you check for real changes, the initial scan has been completed.
+[2023-11-07 06:23:36.582] [info]  Cider client port: 9000
+[2023-11-07 06:23:36.584] [info]  Cider remote port: 6942
+[2023-11-07 06:23:36.585] [info]  remote broadcasted
+[2023-11-07 06:23:39.797] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-11-07 06:23:39.797] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-11-07 06:25:25.086] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-11-07 06:25:25.086] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-11-07 06:26:09.518] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2023-11-07 06:26:09.519] [error] SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /opt/Cider/resources/app.asar/node_modules/electron-fetch/lib/index.js:295:55
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-11-07 06:26:16.975] [warn]  Cider exited.

@@ -1,0 +1,17 @@
+2023/11/07-06:23:35.968 5587a Reusing MANIFEST /home/khing/.config/Cider/Local Storage/leveldb/MANIFEST-000001
+2023/11/07-06:23:35.968 5587a Recovering log #66
+2023/11/07-06:23:35.972 5587a Level-0 table #69: started
+2023/11/07-06:23:35.973 5587a Level-0 table #69: 21528 bytes OK
+2023/11/07-06:23:35.975 5587a Delete type=0 #66
+2023/11/07-06:26:14.167 5587a Level-0 table #72: started
+2023/11/07-06:26:14.178 5587a Level-0 table #72: 32372 bytes OK
+2023/11/07-06:26:14.184 5587a Delete type=0 #70
+2023/11/07-06:26:14.184 5587a Compacting 4@0 + 1@1 files
+2023/11/07-06:26:14.187 5587a Generated table #73@0: 5 keys, 23623 bytes
+2023/11/07-06:26:14.187 5587a Compacted 4@0 + 1@1 files => 23623 bytes
+2023/11/07-06:26:14.191 5587a compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/07-06:26:14.191 5587a Delete type=2 #69
+2023/11/07-06:26:14.191 5587a Delete type=2 #63
+2023/11/07-06:26:14.191 5587a Delete type=2 #67
+2023/11/07-06:26:14.191 5587a Delete type=2 #72
+2023/11/07-06:26:14.191 5587a Delete type=2 #65
