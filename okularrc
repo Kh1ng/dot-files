@@ -1,0 +1,24 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+2 screens: XPosition=688
+2 screens: YPosition=299
+DP-2 HDMI-0=HDMI-0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADIAAADL/wCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAAxAAADLwAAAQ0A///+AAAHRwAAAy8AAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Dropbox/S10/IDrive_download/25701556 Everystage Inst Eng.pdf
+File2[$e]=$HOME/Dropbox/S10/IDrive_download/acsij-2013-2-3-181.pdf
+File3[$e]=$HOME/Dropbox/S10/IDrive_download/latest
+File4[$e]=$HOME/Dropbox/182.full.pdf
+Name1[$e]=25701556 Everystage Inst Eng.pdf
+Name2[$e]=acsij-2013-2-3-181.pdf
+Name3[$e]=latest
+Name4[$e]=182.full.pdf

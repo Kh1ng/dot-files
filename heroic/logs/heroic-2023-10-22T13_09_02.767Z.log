@@ -1,0 +1,1217 @@
+(08:09:02) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(08:09:02) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(08:09:02) INFO:    [Connection]:       Connectivity: check-online
+(08:09:02) INFO:    [Connection]:       Pinging external endpoints
+(08:09:03) INFO:    [Connection]:       Connectivity: online
+(08:09:03) INFO:    [Backend]:          DRM module staus {
+  "oimompecagnajdejgnnjijobebaeigek": {
+    "name": "Widevine Content Decryption Module",
+    "status": "updated",
+    "version": "4.10.2710.0"
+  }
+}
+(08:09:03) INFO:    [Backend]:          User Not Found, removing it from Store
+(08:09:03) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(08:09:03) WARNING: [Backend]:          Protocol already registered.
+(08:09:03) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(08:09:03) INFO:    [Backend]:          Loading Screen Ready
+(08:09:03) INFO:    [Backend]:          Frontend Ready
+(08:09:04) INFO:    [Backend]:          Checking for new Heroic Updates
+(08:09:04) INFO:    [Backend]:          Checking for current version changelog
+(08:09:04) INFO:    [Frontend]:         Updated to a new version, cleaaning up the cache.
+(08:09:04) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary cleanup
+(08:09:04) INFO:    [Frontend]:         Refreshing undefined Library
+(08:09:04) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(08:09:04) INFO:    [Legendary]:        Refreshing library...
+(08:09:04) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(08:09:04) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json --version
+(08:09:04) INFO:    [Nile]:             Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/nile --version
+(08:09:04) INFO:    [Backend]:          
+System Information:
+CPU: 24x AMD Ryzen 9 5900X 12-Core Processor
+Memory: 33.56 GB (used: 10.72 GB)
+GPUs:
+  GPU 0:
+    Name: NVIDIA Corporation TU104 [GeForce RTX 2080 Rev. A]
+    IDs: D=1e87 V=10de SD=865f SV=1043
+    Driver: nvidia
+OS: XeroLinux 6.5.8-zen1-1-zen (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.9.2 Boa Hancock
+  Legendary: 0.20.32 Dark Energy (hotfix #6)
+  gogdl: 0.7.3
+  Nile: 1.0.0 Jonathan Joestar
+
+(08:09:06) INFO:    [Winetricks]:       Downloading Winetricks
+(08:09:06) INFO:    [DXVKInstaller]:    Updating dxvk to: dxvk-2.3
+(08:09:06) INFO:    [DXVKInstaller]:    Updating dxvk-nvapi to: dxvk-nvapi-v0.6.4
+(08:09:06) INFO:    [DXVKInstaller]:    Updating vkd3d to: vkd3d-proton-v2.10
+(08:09:06) INFO:    [DXVKInstaller]:    downloaded dxvk-nvapi
+(08:09:06) INFO:    [DXVKInstaller]:    extracting dxvk-nvapi
+(08:09:06) INFO:    [DXVKInstaller]:    downloaded vkd3d
+(08:09:06) INFO:    [DXVKInstaller]:    extracting vkd3d
+(08:09:06) INFO:    [DXVKInstaller]:    dxvk-nvapi updated!
+(08:09:06) INFO:    [DXVKInstaller]:    downloaded dxvk
+(08:09:06) INFO:    [DXVKInstaller]:    extracting dxvk
+(08:09:06) INFO:    [DXVKInstaller]:    vkd3d updated!
+(08:09:06) INFO:    [DXVKInstaller]:    dxvk updated!
+(08:09:08) INFO:    [Backend]:          Starting the Download Queue
+(08:10:45) INFO:    [Gog]:              Logging using GOG credentials
+(08:10:45) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth --code <redacted>
+(08:10:46) INFO:    [Gog]:              Login Successful
+(08:10:46) INFO:    [Gog]:              Checking if login is valid
+(08:10:46) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:10:47) INFO:    [Gog]:              Saved username to config file
+(08:10:47) INFO:    [Frontend]:         Refreshing gog Library
+(08:10:47) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:10:47) INFO:    [Gog]:              Getting GOG library
+(08:10:47) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:10:48) INFO:    [Gog]:              Saved games data
+(08:10:54) DEBUG:   [Nile]:             Getting login data from Nile
+(08:10:54) INFO:    [Nile]:             Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/nile auth --login --non-interactive
+(08:10:54) INFO:    [Nile]:             Register data is: {
+  "client_id": "3645424441423232373044433131454542343231463032463734314342373241234132554d56484f58375550345637",
+  "code_verifier": "4PPVKfVuRNNc03TPJkkrB1viyKh2gdXkxlu6UBHsT7c",
+  "serial": "6EBDAB2270DC11EEB421F02F741CB72A",
+  "url": "https://amazon.com/ap/signin?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.oa2.scope=device_auth_access&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.client_id=device%3A3645424441423232373044433131454542343231463032463734314342373241234132554d56484f58375550345637&language=en_US&marketPlaceId=ATVPDKIKX0DER&openid.return_to=https%3A%2F%2Fwww.amazon.com&openid.pape.max_auth_age=0&openid.assoc_handle=amzn_sonic_games_launcher&pageId=amzn_sonic_games_launcher&openid.oa2.code_challenge=N2By8DVMPCOKWZh1brGznaGCg6perJOc8Y6CYXC3VKg"
+}
+(08:11:09) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:11:09) DEBUG:   [Backend]:          {"free":521483243520,"diskSize":983347478528,"message":"485.67 GiB / 915.81 GiB","validPath":true}
+(08:11:09) INFO:    [Gog]:              Getting game metadata: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json info 1207664643 --token <redacted> --lang=en-US --os windows
+(08:11:12) DEBUG:   [Backend]:          {"free":521483239424,"diskSize":983347478528,"message":"485.67 GiB / 915.81 GiB","validPath":true}
+(08:11:25) INFO:    [Backend]:          Writing config for 1207664643
+(08:11:25) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to Heroic
+(08:11:25) INFO:    [Gog]:              Got install info from cache for 1207664643 on windows platform
+(08:11:25) INFO:    [DownloadManager]:  The Witcher 3: Wild Hunt  was added to the download queue.
+(08:11:25) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:11:25) INFO:    [Backend]:          Preventing machine to sleep
+(08:11:25) INFO:    [Gog]:              Installing 1207664643: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json download 1207664643 --platform windows --path=/home/khing/Games/Heroic --token <redacted> --skip-dlcs --lang=en-US
+(08:11:25) DEBUG:   [Gog]:              Logging to file "/home/khing/.config/heroic/GamesConfig/1207664643.log"
+(08:11:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 0.06%/0.00MB/00:00:00 Down: 24.81MB/s / Disk: 47.34MB/s
+(08:11:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 0.33%/124.51MB/00:15:19 Down: 99.51MB/s / Disk: 313.62MB/s
+(08:11:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 0.58%/307.15MB/00:11:29 Down: 96.29MB/s / Disk: 139.43MB/s
+(08:11:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 0.8%/398.04MB/00:10:17 Down: 86.27MB/s / Disk: 126.96MB/s
+(08:11:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 1.04%/498.65MB/00:09:30 Down: 100.51MB/s / Disk: 162.95MB/s
+(08:11:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 1.3%/600.04MB/00:08:50 Down: 101.3MB/s / Disk: 237.58MB/s
+(08:11:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 1.57%/683.90MB/00:08:22 Down: 83.75MB/s / Disk: 107.65MB/s
+(08:11:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 1.79%/768.84MB/00:08:14 Down: 84.88MB/s / Disk: 121.73MB/s
+(08:11:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.01%/852.93MB/00:08:07 Down: 84MB/s / Disk: 83.8MB/s
+(08:11:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.23%/923.51MB/00:08:02 Down: 70.56MB/s / Disk: 72.35MB/s
+(08:11:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.42%/1000.30MB/00:08:05 Down: 76.74MB/s / Disk: 87.46MB/s
+(08:11:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.62%/1072.49MB/00:08:04 Down: 72.13MB/s / Disk: 116.53MB/s
+(08:11:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.81%/1131.55MB/00:08:05 Down: 59MB/s / Disk: 326MB/s
+(08:11:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 2.96%/1185.96MB/00:08:12 Down: 54.38MB/s / Disk: 54.79MB/s
+(08:11:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.1%/1238.82MB/00:08:20 Down: 52.78MB/s / Disk: 54.1MB/s
+(08:11:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.24%/1286.05MB/00:08:28 Down: 47.19MB/s / Disk: 48.69MB/s
+(08:11:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.37%/1338.02MB/00:08:37 Down: 51.9MB/s / Disk: 56.24MB/s
+(08:11:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.5%/1389.22MB/00:08:44 Down: 51.2MB/s / Disk: 131.92MB/s
+(08:11:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.64%/1457.73MB/00:08:50 Down: 68.5MB/s / Disk: 72.21MB/s
+(08:11:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 3.81%/1559.31MB/00:08:50 Down: 101.5MB/s / Disk: 120.95MB/s
+(08:11:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 4.08%/1660.69MB/00:08:37 Down: 101.3MB/s / Disk: 166.78MB/s
+(08:11:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 4.35%/1762.87MB/00:08:26 Down: 102.11MB/s / Disk: 167.35MB/s
+(08:11:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 4.61%/1867.77MB/00:08:16 Down: 104.83MB/s / Disk: 149.96MB/s
+(08:11:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 4.89%/1973.46MB/00:08:07 Down: 105.61MB/s / Disk: 107.66MB/s
+(08:11:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 5.16%/2075.94MB/00:07:57 Down: 102.4MB/s / Disk: 157.45MB/s
+(08:11:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 5.43%/2185.99MB/00:07:50 Down: 110MB/s / Disk: 143.83MB/s
+(08:11:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 5.72%/2285.19MB/00:07:41 Down: 99.11MB/s / Disk: 125.19MB/s
+(08:11:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 5.98%/2391.78MB/00:07:36 Down: 106.5MB/s / Disk: 126.49MB/s
+(08:11:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 6.26%/2500.45MB/00:07:29 Down: 108.56MB/s / Disk: 165.03MB/s
+(08:11:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 6.54%/2601.37MB/00:07:23 Down: 100.81MB/s / Disk: 102.89MB/s
+(08:11:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 6.81%/2708.59MB/00:07:18 Down: 107.11MB/s / Disk: 132.67MB/s
+(08:12:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 7.09%/2813.72MB/00:07:13 Down: 105.05MB/s / Disk: 146.73MB/s
+(08:12:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 7.36%/2916.79MB/00:07:08 Down: 102.97MB/s / Disk: 108.15MB/s
+(08:12:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 7.63%/3023.66MB/00:07:04 Down: 106.82MB/s / Disk: 113.07MB/s
+(08:12:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 7.91%/3131.79MB/00:06:59 Down: 108.06MB/s / Disk: 485.99MB/s
+(08:12:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 8.2%/3234.59MB/00:06:54 Down: 102.73MB/s / Disk: 177.49MB/s
+(08:12:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 8.47%/3338.25MB/00:06:51 Down: 103.55MB/s / Disk: 116.41MB/s
+(08:12:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 8.74%/3446.63MB/00:06:47 Down: 108.33MB/s / Disk: 169.27MB/s
+(08:12:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 9.02%/3556.75MB/00:06:43 Down: 110.04MB/s / Disk: 121.44MB/s
+(08:12:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 9.31%/3662.66MB/00:06:39 Down: 105.84MB/s / Disk: 161.3MB/s
+(08:12:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 9.59%/3775.86MB/00:06:36 Down: 113.12MB/s / Disk: 123.11MB/s
+(08:12:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 9.88%/3882.25MB/00:06:32 Down: 106.31MB/s / Disk: 121.39MB/s
+(08:12:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 10.16%/3990.31MB/00:06:29 Down: 107.95MB/s / Disk: 106.95MB/s
+(08:12:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 10.44%/4096.06MB/00:06:26 Down: 105.72MB/s / Disk: 106.72MB/s
+(08:12:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 10.72%/4202.21MB/00:06:23 Down: 106.07MB/s / Disk: 106.07MB/s
+(08:12:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 11%/4300.28MB/00:06:20 Down: 98MB/s / Disk: 98MB/s
+(08:12:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 11.25%/4409.28MB/00:06:18 Down: 108.92MB/s / Disk: 108.92MB/s
+(08:12:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 11.54%/4516.85MB/00:06:16 Down: 107.46MB/s / Disk: 107.46MB/s
+(08:12:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 11.82%/4622.26MB/00:06:13 Down: 105.37MB/s / Disk: 105.37MB/s
+(08:12:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 12.1%/4731.47MB/00:06:11 Down: 109.09MB/s / Disk: 234.67MB/s
+(08:12:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 12.38%/4837.40MB/00:06:08 Down: 105.84MB/s / Disk: 105.84MB/s
+(08:12:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 12.66%/4936.64MB/00:06:06 Down: 99.21MB/s / Disk: 339.12MB/s
+(08:12:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 12.92%/5041.09MB/00:06:04 Down: 104.34MB/s / Disk: 139.87MB/s
+(08:12:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 13.19%/5152.05MB/00:06:02 Down: 110.91MB/s / Disk: 254.69MB/s
+(08:12:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 13.48%/5254.72MB/00:05:59 Down: 102.59MB/s / Disk: 102.59MB/s
+(08:12:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 13.75%/5361.95MB/00:05:57 Down: 107.11MB/s / Disk: 107.11MB/s
+(08:12:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 14.03%/5470.06MB/00:05:55 Down: 108.08MB/s / Disk: 108.08MB/s
+(08:12:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 14.32%/5578.90MB/00:05:53 Down: 108.76MB/s / Disk: 107.79MB/s
+(08:12:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 14.6%/5690.36MB/00:05:51 Down: 111.38MB/s / Disk: 112.35MB/s
+(08:12:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 14.89%/5798.93MB/00:05:48 Down: 108.47MB/s / Disk: 108.47MB/s
+(08:12:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 15.18%/5910.68MB/00:05:46 Down: 111.68MB/s / Disk: 111.68MB/s
+(08:12:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 15.47%/6016.21MB/00:05:44 Down: 105.5MB/s / Disk: 105.5MB/s
+(08:12:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 15.74%/6125.29MB/00:05:42 Down: 108.96MB/s / Disk: 107.97MB/s
+(08:12:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 16.03%/6232.71MB/00:05:40 Down: 107.38MB/s / Disk: 108.38MB/s
+(08:12:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 16.31%/6340.11MB/00:05:38 Down: 107.31MB/s / Disk: 147.28MB/s
+(08:12:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 16.59%/6450.69MB/00:05:37 Down: 110.51MB/s / Disk: 313.72MB/s
+(08:12:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 16.88%/6560.60MB/00:05:35 Down: 109.82MB/s / Disk: 111.17MB/s
+(08:12:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 17.17%/6660.50MB/00:05:33 Down: 99.79MB/s / Disk: 99.79MB/s
+(08:12:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 17.43%/6768.97MB/00:05:31 Down: 108.42MB/s / Disk: 108.42MB/s
+(08:12:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 17.71%/6876.40MB/00:05:30 Down: 107.35MB/s / Disk: 107.35MB/s
+(08:12:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 18%/6985.77MB/00:05:28 Down: 109.29MB/s / Disk: 108.29MB/s
+(08:12:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 18.28%/7094.21MB/00:05:26 Down: 108.36MB/s / Disk: 252.45MB/s
+(08:12:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 18.57%/7198.64MB/00:05:24 Down: 104.36MB/s / Disk: 109.18MB/s
+(08:12:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 18.84%/7308.45MB/00:05:23 Down: 109.7MB/s / Disk: 113.38MB/s
+(08:12:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 19.13%/7417.20MB/00:05:21 Down: 108.64MB/s / Disk: 113.98MB/s
+(08:12:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 19.41%/7528.61MB/00:05:20 Down: 111.3MB/s / Disk: 119.53MB/s
+(08:12:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 19.7%/7637.79MB/00:05:18 Down: 109.08MB/s / Disk: 218.96MB/s
+(08:12:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 19.99%/7746.13MB/00:05:16 Down: 108.3MB/s / Disk: 474.73MB/s
+(08:12:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 20.27%/7853.48MB/00:05:14 Down: 107.27MB/s / Disk: 107.27MB/s
+(08:12:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 20.55%/7959.59MB/00:05:13 Down: 106.03MB/s / Disk: 106.03MB/s
+(08:12:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 20.83%/8070.15MB/00:05:11 Down: 110.48MB/s / Disk: 150.45MB/s
+(08:12:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 21.12%/8180.04MB/00:05:10 Down: 109.77MB/s / Disk: 349.53MB/s
+(08:12:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 21.41%/8281.69MB/00:05:08 Down: 101.6MB/s / Disk: 117.46MB/s
+(08:12:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 21.67%/8393.30MB/00:05:07 Down: 111.5MB/s / Disk: 111.5MB/s
+(08:12:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 21.97%/8499.91MB/00:05:05 Down: 106.55MB/s / Disk: 106.55MB/s
+(08:12:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 22.24%/8608.56MB/00:05:04 Down: 108.56MB/s / Disk: 218.48MB/s
+(08:12:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 22.53%/8714.63MB/00:05:02 Down: 105.98MB/s / Disk: 449.4MB/s
+(08:12:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 22.81%/8822.78MB/00:05:01 Down: 108.09MB/s / Disk: 108.09MB/s
+(08:12:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 23.09%/8931.46MB/00:05:00 Down: 108.56MB/s / Disk: 108.56MB/s
+(08:12:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 23.37%/9038.17MB/00:04:58 Down: 106.67MB/s / Disk: 106.67MB/s
+(08:13:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 23.65%/9147.30MB/00:04:57 Down: 109.07MB/s / Disk: 109.07MB/s
+(08:13:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 23.94%/9252.58MB/00:04:55 Down: 105.25MB/s / Disk: 105.25MB/s
+(08:13:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 24.21%/9358.61MB/00:04:54 Down: 105.92MB/s / Disk: 105.92MB/s
+(08:13:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 24.49%/9469.66MB/00:04:53 Down: 110.93MB/s / Disk: 110.93MB/s
+(08:13:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 24.78%/9578.52MB/00:04:51 Down: 108.75MB/s / Disk: 108.75MB/s
+(08:13:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 25.07%/9686.48MB/00:04:50 Down: 107.87MB/s / Disk: 107.87MB/s
+(08:13:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 25.35%/9800.04MB/00:04:48 Down: 113.47MB/s / Disk: 223.38MB/s
+(08:13:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 25.65%/9906.92MB/00:04:47 Down: 106.8MB/s / Disk: 122.34MB/s
+(08:13:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 25.93%/10012.20MB/00:04:46 Down: 105.19MB/s / Disk: 105.19MB/s
+(08:13:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 26.2%/10121.82MB/00:04:44 Down: 109.51MB/s / Disk: 148.06MB/s
+(08:13:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 26.49%/10227.49MB/00:04:43 Down: 105.56MB/s / Disk: 162.13MB/s
+(08:13:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 26.77%/10335.04MB/00:04:42 Down: 107.52MB/s / Disk: 113.94MB/s
+(08:13:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 27.05%/10445.19MB/00:04:40 Down: 110.08MB/s / Disk: 110.2MB/s
+(08:13:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 27.34%/10551.97MB/00:04:39 Down: 106.77MB/s / Disk: 305.26MB/s
+(08:13:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 27.61%/10660.16MB/00:04:38 Down: 108.07MB/s / Disk: 617.57MB/s
+(08:13:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 27.9%/10765.08MB/00:04:36 Down: 104.91MB/s / Disk: 330.28MB/s
+(08:13:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 28.17%/10872.89MB/00:04:35 Down: 107.7MB/s / Disk: 141.08MB/s
+(08:13:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 28.45%/10977.72MB/00:04:34 Down: 104.79MB/s / Disk: 128.64MB/s
+(08:13:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 28.73%/11085.61MB/00:04:33 Down: 107.81MB/s / Disk: 107.82MB/s
+(08:13:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 29.01%/11192.23MB/00:04:31 Down: 106.56MB/s / Disk: 107.38MB/s
+(08:13:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 29.29%/11297.21MB/00:04:30 Down: 104.91MB/s / Disk: 105.21MB/s
+(08:13:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 29.57%/11405.04MB/00:04:29 Down: 107.75MB/s / Disk: 107.84MB/s
+(08:13:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 29.85%/11514.32MB/00:04:28 Down: 109.19MB/s / Disk: 109.19MB/s
+(08:13:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 30.13%/11623.47MB/00:04:26 Down: 109.08MB/s / Disk: 178.95MB/s
+(08:13:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 30.42%/11733.02MB/00:04:25 Down: 109.48MB/s / Disk: 108.48MB/s
+(08:13:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 30.71%/11836.89MB/00:04:24 Down: 103.8MB/s / Disk: 133.49MB/s
+(08:13:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 30.98%/11945.63MB/00:04:23 Down: 108.65MB/s / Disk: 148.62MB/s
+(08:13:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 31.26%/12053.32MB/00:04:21 Down: 107.59MB/s / Disk: 160.24MB/s
+(08:13:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 31.54%/12162.42MB/00:04:20 Down: 109.02MB/s / Disk: 171.49MB/s
+(08:13:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 31.83%/12273.35MB/00:04:19 Down: 110.84MB/s / Disk: 110.84MB/s
+(08:13:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 32.12%/12384.31MB/00:04:18 Down: 110.9MB/s / Disk: 580.58MB/s
+(08:13:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 32.41%/12487.44MB/00:04:16 Down: 103.04MB/s / Disk: 231.55MB/s
+(08:13:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 32.68%/12594.80MB/00:04:15 Down: 107.29MB/s / Disk: 107.29MB/s
+(08:13:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 32.96%/12699.11MB/00:04:14 Down: 104.23MB/s / Disk: 104.23MB/s
+(08:13:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 33.23%/12809.24MB/00:04:13 Down: 110.04MB/s / Disk: 110.04MB/s
+(08:13:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 33.52%/12915.24MB/00:04:12 Down: 105.93MB/s / Disk: 145.9MB/s
+(08:13:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 33.8%/13024.46MB/00:04:10 Down: 109.15MB/s / Disk: 328.99MB/s
+(08:13:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 34.09%/13131.75MB/00:04:09 Down: 107.2MB/s / Disk: 337.01MB/s
+(08:13:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 34.37%/13235.67MB/00:04:08 Down: 103.84MB/s / Disk: 193.37MB/s
+(08:13:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 34.64%/13340.84MB/00:04:07 Down: 105.09MB/s / Disk: 106.09MB/s
+(08:13:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 34.91%/13447.36MB/00:04:06 Down: 106.43MB/s / Disk: 162.52MB/s
+(08:13:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 35.19%/13553.69MB/00:04:05 Down: 106.26MB/s / Disk: 168.14MB/s
+(08:13:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 35.47%/13659.41MB/00:04:04 Down: 105.65MB/s / Disk: 105.65MB/s
+(08:13:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 35.75%/13767.07MB/00:04:02 Down: 107.57MB/s / Disk: 107.57MB/s
+(08:13:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 36.03%/13876.17MB/00:04:01 Down: 109.01MB/s / Disk: 129.47MB/s
+(08:13:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 36.31%/13982.29MB/00:04:00 Down: 106.05MB/s / Disk: 106.05MB/s
+(08:13:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 36.59%/14083.46MB/00:03:59 Down: 101.08MB/s / Disk: 101.08MB/s
+(08:13:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 36.86%/14188.75MB/00:03:58 Down: 105.21MB/s / Disk: 105.21MB/s
+(08:13:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 37.13%/14295.94MB/00:03:57 Down: 107.1MB/s / Disk: 107.1MB/s
+(08:13:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 37.41%/14405.77MB/00:03:56 Down: 109.74MB/s / Disk: 109.74MB/s
+(08:13:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 37.7%/14511.21MB/00:03:54 Down: 105.36MB/s / Disk: 200.42MB/s
+(08:13:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 37.98%/14619.80MB/00:03:53 Down: 108.51MB/s / Disk: 280.15MB/s
+(08:13:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 38.26%/14729.52MB/00:03:52 Down: 109.64MB/s / Disk: 113.56MB/s
+(08:13:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 38.55%/14833.14MB/00:03:51 Down: 103.53MB/s / Disk: 107.5MB/s
+(08:13:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 38.82%/14933.86MB/00:03:50 Down: 100.65MB/s / Disk: 115.93MB/s
+(08:13:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 39.08%/15035.37MB/00:03:49 Down: 101.43MB/s / Disk: 184.5MB/s
+(08:13:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 39.35%/15142.32MB/00:03:48 Down: 106.86MB/s / Disk: 117.29MB/s
+(08:13:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 39.63%/15245.90MB/00:03:47 Down: 103.51MB/s / Disk: 109.64MB/s
+(08:13:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 39.9%/15343.20MB/00:03:46 Down: 97.22MB/s / Disk: 106.57MB/s
+(08:13:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 40.15%/15450.51MB/00:03:45 Down: 107.22MB/s / Disk: 110.64MB/s
+(08:14:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 40.43%/15546.36MB/00:03:44 Down: 95.78MB/s / Disk: 100.8MB/s
+(08:14:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 40.69%/15650.50MB/00:03:43 Down: 104.1MB/s / Disk: 201.68MB/s
+(08:14:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 40.96%/15754.68MB/00:03:42 Down: 104.1MB/s / Disk: 115.05MB/s
+(08:14:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 41.23%/15861.07MB/00:03:41 Down: 106.31MB/s / Disk: 113.94MB/s
+(08:14:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 41.51%/15965.00MB/00:03:40 Down: 103.85MB/s / Disk: 111.36MB/s
+(08:14:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 41.78%/16070.84MB/00:03:38 Down: 105.7MB/s / Disk: 108.83MB/s
+(08:14:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 42.06%/16168.66MB/00:03:37 Down: 97.82MB/s / Disk: 116.13MB/s
+(08:14:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 42.31%/16270.67MB/00:03:36 Down: 101.94MB/s / Disk: 109.8MB/s
+(08:14:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 42.58%/16376.90MB/00:03:35 Down: 106.12MB/s / Disk: 118.2MB/s
+(08:14:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 42.86%/16481.36MB/00:03:34 Down: 104.36MB/s / Disk: 105.36MB/s
+(08:14:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 43.13%/16590.37MB/00:03:33 Down: 108.98MB/s / Disk: 108.98MB/s
+(08:14:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 43.42%/16700.33MB/00:03:32 Down: 109.88MB/s / Disk: 133MB/s
+(08:14:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 43.71%/16801.39MB/00:03:31 Down: 100.99MB/s / Disk: 101.99MB/s
+(08:14:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 43.97%/16907.24MB/00:03:30 Down: 105.76MB/s / Disk: 105.76MB/s
+(08:14:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 44.25%/17016.17MB/00:03:29 Down: 108.85MB/s / Disk: 108.85MB/s
+(08:14:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 44.53%/17123.65MB/00:03:28 Down: 107.4MB/s / Disk: 107.4MB/s
+(08:14:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 44.81%/17224.03MB/00:03:27 Down: 100.31MB/s / Disk: 100.31MB/s
+(08:14:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 45.08%/17325.27MB/00:03:26 Down: 101.16MB/s / Disk: 100.16MB/s
+(08:14:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 45.34%/17432.55MB/00:03:25 Down: 107.2MB/s / Disk: 188.14MB/s
+(08:14:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 45.62%/17542.87MB/00:03:24 Down: 110.24MB/s / Disk: 291.24MB/s
+(08:14:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 45.91%/17641.13MB/00:03:22 Down: 98.17MB/s / Disk: 98.17MB/s
+(08:14:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 46.17%/17743.38MB/00:03:21 Down: 102.17MB/s / Disk: 102.17MB/s
+(08:14:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 46.44%/17852.49MB/00:03:20 Down: 109.02MB/s / Disk: 109.02MB/s
+(08:14:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 46.72%/17959.30MB/00:03:19 Down: 106.71MB/s / Disk: 306.54MB/s
+(08:14:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 47%/18064.35MB/00:03:18 Down: 104.96MB/s / Disk: 369.32MB/s
+(08:14:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 47.28%/18166.37MB/00:03:17 Down: 101.94MB/s / Disk: 101.94MB/s
+(08:14:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 47.54%/18270.68MB/00:03:16 Down: 104.23MB/s / Disk: 104.23MB/s
+(08:14:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 47.82%/18379.11MB/00:03:15 Down: 108.34MB/s / Disk: 108.34MB/s
+(08:14:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 48.1%/18487.22MB/00:03:14 Down: 108.02MB/s / Disk: 167.97MB/s
+(08:14:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 48.38%/18592.00MB/00:03:13 Down: 104.69MB/s / Disk: 628.14MB/s
+(08:14:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 48.66%/18698.91MB/00:03:12 Down: 106.82MB/s / Disk: 107.82MB/s
+(08:14:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 48.94%/18801.12MB/00:03:11 Down: 102.11MB/s / Disk: 102.11MB/s
+(08:14:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 49.2%/18906.64MB/00:03:10 Down: 105.51MB/s / Disk: 105.51MB/s
+(08:14:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 49.48%/19010.21MB/00:03:09 Down: 103.49MB/s / Disk: 103.49MB/s
+(08:14:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 49.75%/19116.30MB/00:03:08 Down: 106.01MB/s / Disk: 106.01MB/s
+(08:14:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 50.03%/19224.05MB/00:03:06 Down: 107.65MB/s / Disk: 106.65MB/s
+(08:14:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 50.31%/19331.15MB/00:03:05 Down: 107.03MB/s / Disk: 108.03MB/s
+(08:14:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 50.59%/19436.32MB/00:03:04 Down: 105.14MB/s / Disk: 105.14MB/s
+(08:14:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 50.87%/19540.22MB/00:03:03 Down: 103.82MB/s / Disk: 123.81MB/s
+(08:14:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 51.14%/19641.41MB/00:03:02 Down: 101.11MB/s / Disk: 489.8MB/s
+(08:14:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 51.4%/19744.91MB/00:03:01 Down: 103.44MB/s / Disk: 404.24MB/s
+(08:14:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 51.67%/19851.93MB/00:03:00 Down: 106.94MB/s / Disk: 330.01MB/s
+(08:14:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 51.95%/19957.42MB/00:02:59 Down: 105.4MB/s / Disk: 105.4MB/s
+(08:14:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 52.23%/20058.22MB/00:02:58 Down: 100.73MB/s / Disk: 100.73MB/s
+(08:14:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 52.49%/20163.53MB/00:02:57 Down: 105.22MB/s / Disk: 105.22MB/s
+(08:14:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 52.77%/20263.78MB/00:02:56 Down: 100.17MB/s / Disk: 100.17MB/s
+(08:14:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 53.03%/20366.77MB/00:02:55 Down: 102.92MB/s / Disk: 102.92MB/s
+(08:14:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 53.3%/20469.64MB/00:02:54 Down: 102.79MB/s / Disk: 102.79MB/s
+(08:14:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 53.57%/20573.90MB/00:02:53 Down: 104.19MB/s / Disk: 104.19MB/s
+(08:14:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 53.84%/20680.72MB/00:02:52 Down: 106.73MB/s / Disk: 106.73MB/s
+(08:14:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 54.12%/20783.21MB/00:02:51 Down: 102.41MB/s / Disk: 102.41MB/s
+(08:14:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 54.39%/20889.97MB/00:02:50 Down: 106.67MB/s / Disk: 106.67MB/s
+(08:14:52) INFO:    [Legendary]:        Logging in: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary auth --code <redacted>
+(08:14:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 54.67%/20995.07MB/00:02:49 Down: 105.03MB/s / Disk: 103.03MB/s
+(08:14:52) INFO:    [Frontend]:         Refreshing legendary Library
+(08:14:52) INFO:    [Legendary]:        Refreshing library...
+(08:14:52) INFO:    [Legendary]:        Refreshing Epic Games...
+(08:14:52) INFO:    [Legendary]:        Game list updated, got 0 games & DLCs
+(08:14:52) INFO:    [Frontend]:         No cache found, getting data from legendary...
+(08:14:52) INFO:    [Legendary]:        Refreshing library...
+(08:14:52) INFO:    [Legendary]:        Refreshing Epic Games...
+(08:14:52) INFO:    [Legendary]:        Game list updated, got 0 games & DLCs
+(08:14:53) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(08:14:53) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(08:14:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 54.95%/21095.57MB/00:02:48 Down: 100.41MB/s / Disk: 101.41MB/s
+(08:14:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 55.21%/21201.62MB/00:02:47 Down: 105.97MB/s / Disk: 106.97MB/s
+(08:14:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 55.49%/21308.56MB/00:02:46 Down: 106.85MB/s / Disk: 105.85MB/s
+(08:14:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 55.77%/21406.41MB/00:02:45 Down: 97.78MB/s / Disk: 168.73MB/s
+(08:14:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 56.02%/21505.89MB/00:02:44 Down: 99.4MB/s / Disk: 388.17MB/s
+(08:14:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 56.28%/21598.36MB/00:02:43 Down: 92.39MB/s / Disk: 492.89MB/s
+(08:14:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 56.52%/21693.34MB/00:02:42 Down: 94.91MB/s / Disk: 510.22MB/s
+(08:15:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 56.77%/21787.23MB/00:02:41 Down: 93.83MB/s / Disk: 93.83MB/s
+(08:15:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 57.02%/21889.89MB/00:02:40 Down: 102.59MB/s / Disk: 102.59MB/s
+(08:15:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 57.29%/21990.19MB/00:02:39 Down: 100.21MB/s / Disk: 100.21MB/s
+(08:15:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 57.55%/22095.00MB/00:02:38 Down: 104.73MB/s / Disk: 104.73MB/s
+(08:15:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 57.82%/22190.27MB/00:02:37 Down: 95.2MB/s / Disk: 285.05MB/s
+(08:15:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 58.07%/22286.13MB/00:02:36 Down: 95.79MB/s / Disk: 295.63MB/s
+(08:15:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 58.32%/22386.50MB/00:02:35 Down: 100.29MB/s / Disk: 340.1MB/s
+(08:15:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 58.59%/22489.68MB/00:02:34 Down: 103.07MB/s / Disk: 332.82MB/s
+(08:15:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 58.86%/22587.71MB/00:02:33 Down: 98.01MB/s / Disk: 286.99MB/s
+(08:15:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 59.11%/22687.24MB/00:02:33 Down: 99.45MB/s / Disk: 99.45MB/s
+(08:15:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 59.37%/22785.67MB/00:02:32 Down: 98.35MB/s / Disk: 328.19MB/s
+(08:15:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 59.63%/22869.04MB/00:02:31 Down: 83.31MB/s / Disk: 842.71MB/s
+(08:15:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 59.85%/22958.71MB/00:02:30 Down: 89.57MB/s / Disk: 539.53MB/s
+(08:15:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 60.08%/23040.12MB/00:02:29 Down: 81.37MB/s / Disk: 331.22MB/s
+(08:15:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 60.3%/23131.63MB/00:02:28 Down: 91.38MB/s / Disk: 331.04MB/s
+(08:15:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 60.54%/23224.06MB/00:02:28 Down: 92.33MB/s / Disk: 161.94MB/s
+(08:15:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 60.78%/23316.92MB/00:02:27 Down: 92.78MB/s / Disk: 92.78MB/s
+(08:15:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 61.02%/23415.11MB/00:02:26 Down: 98.09MB/s / Disk: 98.09MB/s
+(08:15:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 61.28%/23495.93MB/00:02:25 Down: 80.74MB/s / Disk: 80.74MB/s
+(08:15:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 61.49%/23572.27MB/00:02:24 Down: 76.31MB/s / Disk: 76.31MB/s
+(08:15:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 61.69%/23662.67MB/00:02:24 Down: 90.33MB/s / Disk: 90.33MB/s
+(08:15:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 61.93%/23749.35MB/00:02:23 Down: 86.62MB/s / Disk: 86.62MB/s
+(08:15:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 62.15%/23834.37MB/00:02:22 Down: 84.93MB/s / Disk: 274.74MB/s
+(08:15:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 62.38%/23916.95MB/00:02:21 Down: 82.49MB/s / Disk: 302.27MB/s
+(08:15:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 62.59%/23996.93MB/00:02:21 Down: 79.9MB/s / Disk: 439.53MB/s
+(08:15:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 62.8%/24077.74MB/00:02:20 Down: 80.79MB/s / Disk: 224.25MB/s
+(08:15:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 63.01%/24160.22MB/00:02:19 Down: 82.31MB/s / Disk: 83.31MB/s
+(08:15:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 63.23%/24245.75MB/00:02:19 Down: 85.44MB/s / Disk: 85.44MB/s
+(08:15:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 63.45%/24325.52MB/00:02:18 Down: 79.76MB/s / Disk: 79.76MB/s
+(08:15:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 63.66%/24411.45MB/00:02:17 Down: 85.85MB/s / Disk: 85.85MB/s
+(08:15:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 63.89%/24490.14MB/00:02:16 Down: 78.63MB/s / Disk: 78.63MB/s
+(08:15:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 64.09%/24569.06MB/00:02:16 Down: 78.85MB/s / Disk: 78.85MB/s
+(08:15:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 64.3%/24651.57MB/00:02:15 Down: 82.45MB/s / Disk: 82.45MB/s
+(08:15:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 64.51%/24739.33MB/00:02:14 Down: 87.69MB/s / Disk: 87.69MB/s
+(08:15:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 64.74%/24821.06MB/00:02:14 Down: 81.66MB/s / Disk: 81.66MB/s
+(08:15:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 64.96%/24902.91MB/00:02:13 Down: 81.79MB/s / Disk: 81.79MB/s
+(08:15:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 65.17%/24986.64MB/00:02:12 Down: 83.64MB/s / Disk: 82.66MB/s
+(08:15:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 65.39%/25068.96MB/00:02:11 Down: 82.28MB/s / Disk: 83.27MB/s
+(08:15:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 65.61%/25152.06MB/00:02:11 Down: 83.03MB/s / Disk: 83.03MB/s
+(08:15:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 65.82%/25227.97MB/00:02:10 Down: 75.85MB/s / Disk: 385.61MB/s
+(08:15:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 66.02%/25308.02MB/00:02:09 Down: 79.99MB/s / Disk: 469.67MB/s
+(08:15:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 66.23%/25387.44MB/00:02:09 Down: 79.36MB/s / Disk: 608.94MB/s
+(08:15:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 66.44%/25460.43MB/00:02:08 Down: 72.93MB/s / Disk: 341.33MB/s
+(08:15:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 66.63%/25533.09MB/00:02:07 Down: 72.58MB/s / Disk: 72.58MB/s
+(08:15:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 66.82%/25601.13MB/00:02:07 Down: 67.97MB/s / Disk: 67.97MB/s
+(08:15:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67%/25685.82MB/00:02:06 Down: 84.67MB/s / Disk: 84.67MB/s
+(08:15:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67.22%/25759.59MB/00:02:05 Down: 73.71MB/s / Disk: 73.71MB/s
+(08:15:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67.41%/25831.49MB/00:02:05 Down: 71.85MB/s / Disk: 71.85MB/s
+(08:15:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67.6%/25908.92MB/00:02:04 Down: 77.36MB/s / Disk: 77.36MB/s
+(08:15:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67.8%/25979.97MB/00:02:04 Down: 70.99MB/s / Disk: 70.99MB/s
+(08:15:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 67.99%/26069.08MB/00:02:03 Down: 89.02MB/s / Disk: 88.02MB/s
+(08:15:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 68.22%/26155.51MB/00:02:02 Down: 86.4MB/s / Disk: 87.4MB/s
+(08:15:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 68.45%/26227.75MB/00:02:01 Down: 72.16MB/s / Disk: 72.16MB/s
+(08:15:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 68.64%/26304.41MB/00:02:01 Down: 76.63MB/s / Disk: 76.63MB/s
+(08:15:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 68.84%/26376.89MB/00:02:00 Down: 72.42MB/s / Disk: 72.42MB/s
+(08:15:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 69.03%/26453.94MB/00:01:59 Down: 76.99MB/s / Disk: 76.99MB/s
+(08:15:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 69.23%/26539.57MB/00:01:59 Down: 85.55MB/s / Disk: 85.55MB/s
+(08:15:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 69.46%/26614.64MB/00:01:58 Down: 75.02MB/s / Disk: 75.02MB/s
+(08:15:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 69.65%/26693.41MB/00:01:57 Down: 78.7MB/s / Disk: 78.7MB/s
+(08:15:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 69.86%/26756.03MB/00:01:57 Down: 62.58MB/s / Disk: 262.47MB/s
+(08:16:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.02%/26824.50MB/00:01:56 Down: 68.41MB/s / Disk: 278.24MB/s
+(08:16:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.2%/26888.56MB/00:01:56 Down: 64.01MB/s / Disk: 271.84MB/s
+(08:16:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.37%/26950.48MB/00:01:55 Down: 61.88MB/s / Disk: 373.65MB/s
+(08:16:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.53%/27014.62MB/00:01:55 Down: 64.08MB/s / Disk: 353.85MB/s
+(08:16:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.7%/27071.27MB/00:01:54 Down: 56.6MB/s / Disk: 330.65MB/s
+(08:16:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 70.85%/27130.99MB/00:01:54 Down: 59.66MB/s / Disk: 59.66MB/s
+(08:16:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71%/27188.89MB/00:01:53 Down: 57.84MB/s / Disk: 57.84MB/s
+(08:16:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71.15%/27249.82MB/00:01:53 Down: 60.92MB/s / Disk: 60.92MB/s
+(08:16:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71.31%/27311.53MB/00:01:52 Down: 61.65MB/s / Disk: 61.65MB/s
+(08:16:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71.48%/27375.17MB/00:01:52 Down: 63.6MB/s / Disk: 63.6MB/s
+(08:16:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71.64%/27447.32MB/00:01:51 Down: 72.09MB/s / Disk: 71.09MB/s
+(08:16:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 71.83%/27514.79MB/00:01:51 Down: 67.42MB/s / Disk: 68.42MB/s
+(08:16:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.01%/27585.37MB/00:01:50 Down: 70.52MB/s / Disk: 70.52MB/s
+(08:16:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.19%/27648.66MB/00:01:49 Down: 63.25MB/s / Disk: 63.25MB/s
+(08:16:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.36%/27720.01MB/00:01:49 Down: 71.28MB/s / Disk: 71.28MB/s
+(08:16:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.54%/27786.76MB/00:01:48 Down: 66.74MB/s / Disk: 66.74MB/s
+(08:16:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.72%/27856.29MB/00:01:48 Down: 69.45MB/s / Disk: 69.45MB/s
+(08:16:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 72.9%/27922.83MB/00:01:47 Down: 66.48MB/s / Disk: 65.48MB/s
+(08:16:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.08%/27980.46MB/00:01:46 Down: 57.58MB/s / Disk: 58.58MB/s
+(08:16:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.23%/28034.61MB/00:01:46 Down: 54.12MB/s / Disk: 54.12MB/s
+(08:16:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.37%/28105.46MB/00:01:46 Down: 70.79MB/s / Disk: 70.79MB/s
+(08:16:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.55%/28182.10MB/00:01:45 Down: 76.57MB/s / Disk: 76.57MB/s
+(08:16:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.75%/28244.49MB/00:01:44 Down: 62.35MB/s / Disk: 62.35MB/s
+(08:16:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 73.92%/28322.98MB/00:01:44 Down: 78.41MB/s / Disk: 258.22MB/s
+(08:16:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.12%/28376.24MB/00:01:43 Down: 53.21MB/s / Disk: 382.87MB/s
+(08:16:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.26%/28426.19MB/00:01:43 Down: 49.92MB/s / Disk: 449.76MB/s
+(08:16:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.39%/28495.23MB/00:01:42 Down: 68.98MB/s / Disk: 538.59MB/s
+(08:16:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.57%/28554.15MB/00:01:42 Down: 58.88MB/s / Disk: 281.3MB/s
+(08:16:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.73%/28612.32MB/00:01:41 Down: 58.11MB/s / Disk: 118.05MB/s
+(08:16:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 74.88%/28658.60MB/00:01:41 Down: 46.23MB/s / Disk: 285.99MB/s
+(08:16:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75%/28698.82MB/00:01:40 Down: 40.18MB/s / Disk: 339.87MB/s
+(08:16:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.11%/28748.09MB/00:01:40 Down: 49.22MB/s / Disk: 348.91MB/s
+(08:16:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.24%/28800.36MB/00:01:40 Down: 52.22MB/s / Disk: 341.93MB/s
+(08:16:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.37%/28852.50MB/00:01:39 Down: 52.08MB/s / Disk: 193.6MB/s
+(08:16:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.51%/28899.38MB/00:01:39 Down: 46.84MB/s / Disk: 46.84MB/s
+(08:16:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.63%/28950.03MB/00:01:39 Down: 50.6MB/s / Disk: 50.6MB/s
+(08:16:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.76%/28994.02MB/00:01:38 Down: 43.94MB/s / Disk: 203.78MB/s
+(08:16:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.88%/29032.47MB/00:01:38 Down: 38.41MB/s / Disk: 238.21MB/s
+(08:16:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 75.98%/29075.47MB/00:01:38 Down: 42.97MB/s / Disk: 252.82MB/s
+(08:16:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.09%/29117.82MB/00:01:37 Down: 42.3MB/s / Disk: 252.08MB/s
+(08:16:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.2%/29158.34MB/00:01:37 Down: 40.5MB/s / Disk: 250.38MB/s
+(08:16:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.31%/29201.60MB/00:01:37 Down: 43.22MB/s / Disk: 272.98MB/s
+(08:16:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.42%/29236.00MB/00:01:36 Down: 34.38MB/s / Disk: 294.21MB/s
+(08:16:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.51%/29274.05MB/00:01:36 Down: 38.03MB/s / Disk: 277.83MB/s
+(08:16:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.61%/29315.18MB/00:01:36 Down: 41.09MB/s / Disk: 280.88MB/s
+(08:16:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.72%/29371.32MB/00:01:36 Down: 56.1MB/s / Disk: 227.46MB/s
+(08:16:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.87%/29411.02MB/00:01:35 Down: 39.67MB/s / Disk: 39.67MB/s
+(08:16:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 76.97%/29448.14MB/00:01:35 Down: 37.08MB/s / Disk: 37.08MB/s
+(08:16:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.07%/29495.24MB/00:01:35 Down: 47.05MB/s / Disk: 47.05MB/s
+(08:16:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.19%/29539.96MB/00:01:34 Down: 44.7MB/s / Disk: 44.7MB/s
+(08:16:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.31%/29576.34MB/00:01:34 Down: 36.35MB/s / Disk: 36.35MB/s
+(08:16:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.4%/29616.70MB/00:01:34 Down: 40.33MB/s / Disk: 40.33MB/s
+(08:16:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.51%/29653.89MB/00:01:34 Down: 37.16MB/s / Disk: 37.16MB/s
+(08:16:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.61%/29691.88MB/00:01:33 Down: 37.96MB/s / Disk: 37.96MB/s
+(08:16:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.7%/29733.66MB/00:01:33 Down: 41.74MB/s / Disk: 40.74MB/s
+(08:16:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.81%/29769.98MB/00:01:33 Down: 36.29MB/s / Disk: 37.29MB/s
+(08:16:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 77.91%/29811.33MB/00:01:33 Down: 41.31MB/s / Disk: 41.31MB/s
+(08:16:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.02%/29853.48MB/00:01:32 Down: 42.11MB/s / Disk: 42.11MB/s
+(08:16:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.13%/29889.93MB/00:01:32 Down: 36.41MB/s / Disk: 36.41MB/s
+(08:16:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.22%/29932.47MB/00:01:32 Down: 42.5MB/s / Disk: 42.5MB/s
+(08:17:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.33%/29971.24MB/00:01:31 Down: 38.74MB/s / Disk: 38.74MB/s
+(08:17:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.44%/30006.56MB/00:01:31 Down: 35.29MB/s / Disk: 35.29MB/s
+(08:17:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.53%/30049.17MB/00:01:31 Down: 42.58MB/s / Disk: 42.58MB/s
+(08:17:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.64%/30092.31MB/00:01:31 Down: 43.09MB/s / Disk: 43.09MB/s
+(08:17:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.75%/30126.01MB/00:01:30 Down: 33.67MB/s / Disk: 33.67MB/s
+(08:17:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.84%/30168.50MB/00:01:30 Down: 42.44MB/s / Disk: 42.44MB/s
+(08:17:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 78.95%/30207.13MB/00:01:30 Down: 38.59MB/s / Disk: 38.59MB/s
+(08:17:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.05%/30241.79MB/00:01:29 Down: 34.63MB/s / Disk: 34.63MB/s
+(08:17:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.14%/30276.78MB/00:01:29 Down: 34.96MB/s / Disk: 34.96MB/s
+(08:17:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.24%/30311.73MB/00:01:29 Down: 34.91MB/s / Disk: 33.92MB/s
+(08:17:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.33%/30346.45MB/00:01:29 Down: 34.71MB/s / Disk: 35.71MB/s
+(08:17:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.42%/30384.76MB/00:01:28 Down: 38.29MB/s / Disk: 37.29MB/s
+(08:17:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.52%/30419.61MB/00:01:28 Down: 34.82MB/s / Disk: 35.82MB/s
+(08:17:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.61%/30448.83MB/00:01:28 Down: 29.19MB/s / Disk: 29.19MB/s
+(08:17:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.69%/30484.85MB/00:01:28 Down: 36MB/s / Disk: 36MB/s
+(08:17:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.78%/30521.90MB/00:01:28 Down: 37.01MB/s / Disk: 37.01MB/s
+(08:17:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.88%/30562.78MB/00:01:27 Down: 40.83MB/s / Disk: 40.83MB/s
+(08:17:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 79.98%/30587.81MB/00:01:27 Down: 25.01MB/s / Disk: 414.6MB/s
+(08:17:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.05%/30616.63MB/00:01:27 Down: 28.82MB/s / Disk: 488.77MB/s
+(08:17:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.13%/30646.93MB/00:01:27 Down: 30.27MB/s / Disk: 519.88MB/s
+(08:17:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.2%/30683.94MB/00:01:26 Down: 36.99MB/s / Disk: 576.54MB/s
+(08:17:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.3%/30712.25MB/00:01:26 Down: 28.27MB/s / Disk: 257.27MB/s
+(08:17:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.38%/30737.76MB/00:01:26 Down: 25.49MB/s / Disk: 25.49MB/s
+(08:17:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.44%/30766.69MB/00:01:26 Down: 28.91MB/s / Disk: 28.91MB/s
+(08:17:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.52%/30800.65MB/00:01:26 Down: 33.92MB/s / Disk: 33.92MB/s
+(08:17:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.61%/30827.20MB/00:01:25 Down: 26.53MB/s / Disk: 26.53MB/s
+(08:17:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.68%/30861.48MB/00:01:25 Down: 34.25MB/s / Disk: 34.25MB/s
+(08:17:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.77%/30889.96MB/00:01:25 Down: 28.46MB/s / Disk: 28.46MB/s
+(08:17:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.84%/30918.79MB/00:01:25 Down: 28.81MB/s / Disk: 28.81MB/s
+(08:17:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 80.92%/30949.42MB/00:01:25 Down: 30.6MB/s / Disk: 30.6MB/s
+(08:17:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81%/30983.33MB/00:01:25 Down: 33.88MB/s / Disk: 33.88MB/s
+(08:17:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.08%/31010.61MB/00:01:24 Down: 27.25MB/s / Disk: 27.25MB/s
+(08:17:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.16%/31044.12MB/00:01:24 Down: 33.48MB/s / Disk: 33.48MB/s
+(08:17:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.24%/31071.97MB/00:01:24 Down: 27.83MB/s / Disk: 27.83MB/s
+(08:17:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.32%/31104.57MB/00:01:24 Down: 32.56MB/s / Disk: 32.56MB/s
+(08:17:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.4%/31129.48MB/00:01:23 Down: 24.9MB/s / Disk: 24.9MB/s
+(08:17:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.47%/31157.36MB/00:01:23 Down: 27.86MB/s / Disk: 27.86MB/s
+(08:17:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.54%/31190.50MB/00:01:23 Down: 33.11MB/s / Disk: 33.11MB/s
+(08:17:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.63%/31220.01MB/00:01:23 Down: 29.49MB/s / Disk: 29.49MB/s
+(08:17:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.7%/31246.56MB/00:01:23 Down: 26.53MB/s / Disk: 26.53MB/s
+(08:17:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.77%/31280.23MB/00:01:23 Down: 33.65MB/s / Disk: 33.65MB/s
+(08:17:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.86%/31311.79MB/00:01:22 Down: 31.53MB/s / Disk: 31.53MB/s
+(08:17:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 81.94%/31348.69MB/00:01:22 Down: 36.87MB/s / Disk: 35.87MB/s
+(08:17:42) INFO:    [Frontend]:         Refreshing undefined Library
+(08:17:42) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(08:17:42) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:17:42) INFO:    [Legendary]:        Refreshing library...
+(08:17:42) INFO:    [Legendary]:        Refreshing Epic Games...
+(08:17:42) INFO:    [Legendary]:        Game list updated, got 0 games & DLCs
+(08:17:42) INFO:    [Gog]:              Getting GOG library
+(08:17:42) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:17:42) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(08:17:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.04%/31376.11MB/00:01:22 Down: 27.4MB/s / Disk: 28.4MB/s
+(08:17:44) INFO:    [Gog]:              Saved games data
+(08:17:44) INFO:    [Frontend]:         No cache found, getting data from legendary...
+(08:17:44) INFO:    [Legendary]:        Refreshing library...
+(08:17:44) INFO:    [Legendary]:        Refreshing Epic Games...
+(08:17:44) INFO:    [Legendary]:        Game list updated, got 0 games & DLCs
+(08:17:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.11%/31407.17MB/00:01:21 Down: 31.04MB/s / Disk: 31.04MB/s
+(08:17:44) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(08:17:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.19%/31440.53MB/00:01:21 Down: 33.33MB/s / Disk: 33.33MB/s
+(08:17:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.28%/31469.40MB/00:01:21 Down: 28.85MB/s / Disk: 28.85MB/s
+(08:17:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.36%/31501.04MB/00:01:21 Down: 31.61MB/s / Disk: 31.61MB/s
+(08:17:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.44%/31528.92MB/00:01:21 Down: 27.86MB/s / Disk: 27.86MB/s
+(08:17:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.51%/31558.43MB/00:01:20 Down: 29.48MB/s / Disk: 29.48MB/s
+(08:17:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.59%/31586.63MB/00:01:20 Down: 28.17MB/s / Disk: 28.17MB/s
+(08:17:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.66%/31614.17MB/00:01:20 Down: 27.53MB/s / Disk: 27.53MB/s
+(08:17:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.74%/31648.91MB/00:01:20 Down: 34.71MB/s / Disk: 34.71MB/s
+(08:17:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.83%/31680.09MB/00:01:19 Down: 31.14MB/s / Disk: 31.14MB/s
+(08:17:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.91%/31708.68MB/00:01:19 Down: 28.56MB/s / Disk: 28.56MB/s
+(08:17:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 82.98%/31735.52MB/00:01:19 Down: 26.81MB/s / Disk: 26.81MB/s
+(08:17:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.05%/31760.85MB/00:01:19 Down: 25.32MB/s / Disk: 25.32MB/s
+(08:17:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.12%/31789.37MB/00:01:19 Down: 28.49MB/s / Disk: 28.49MB/s
+(08:17:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.19%/31824.22MB/00:01:18 Down: 34.82MB/s / Disk: 34.82MB/s
+(08:17:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.29%/31852.42MB/00:01:18 Down: 28.18MB/s / Disk: 28.18MB/s
+(08:18:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.36%/31880.07MB/00:01:18 Down: 27.63MB/s / Disk: 27.63MB/s
+(08:18:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.43%/31908.93MB/00:01:18 Down: 28.83MB/s / Disk: 28.83MB/s
+(08:18:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.51%/31939.13MB/00:01:17 Down: 30.17MB/s / Disk: 30.17MB/s
+(08:18:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.59%/31968.67MB/00:01:17 Down: 29.54MB/s / Disk: 29.54MB/s
+(08:18:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.66%/31996.56MB/00:01:17 Down: 27.86MB/s / Disk: 27.86MB/s
+(08:18:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.74%/32018.19MB/00:01:17 Down: 21.62MB/s / Disk: 21.62MB/s
+(08:18:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.79%/32052.12MB/00:01:17 Down: 33.9MB/s / Disk: 33.9MB/s
+(08:18:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.88%/32083.63MB/00:01:16 Down: 31.47MB/s / Disk: 31.47MB/s
+(08:18:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 83.96%/32113.88MB/00:01:16 Down: 30.22MB/s / Disk: 30.22MB/s
+(08:18:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.04%/32138.40MB/00:01:16 Down: 24.51MB/s / Disk: 24.51MB/s
+(08:18:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.11%/32166.16MB/00:01:16 Down: 27.74MB/s / Disk: 27.74MB/s
+(08:18:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.18%/32191.71MB/00:01:15 Down: 25.52MB/s / Disk: 25.52MB/s
+(08:18:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.25%/32220.56MB/00:01:15 Down: 28.82MB/s / Disk: 28.82MB/s
+(08:18:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.32%/32253.05MB/00:01:15 Down: 32.46MB/s / Disk: 32.46MB/s
+(08:18:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.41%/32279.25MB/00:01:15 Down: 26.17MB/s / Disk: 26.17MB/s
+(08:18:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.48%/32312.66MB/00:01:14 Down: 33.39MB/s / Disk: 33.39MB/s
+(08:18:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.56%/32344.40MB/00:01:14 Down: 31.71MB/s / Disk: 31.71MB/s
+(08:18:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.65%/32386.90MB/00:01:14 Down: 42.46MB/s / Disk: 42.46MB/s
+(08:18:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.76%/32414.74MB/00:01:13 Down: 27.82MB/s / Disk: 27.82MB/s
+(08:18:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.83%/32439.34MB/00:01:13 Down: 24.58MB/s / Disk: 24.58MB/s
+(08:18:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.9%/32465.58MB/00:01:13 Down: 26.21MB/s / Disk: 26.21MB/s
+(08:18:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 84.96%/32501.09MB/00:01:13 Down: 35.48MB/s / Disk: 35.48MB/s
+(08:18:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.06%/32532.71MB/00:01:12 Down: 31.6MB/s / Disk: 31.6MB/s
+(08:18:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.14%/32558.29MB/00:01:12 Down: 25.56MB/s / Disk: 25.56MB/s
+(08:18:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.21%/32582.10MB/00:01:12 Down: 23.79MB/s / Disk: 23.79MB/s
+(08:18:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.27%/32614.77MB/00:01:12 Down: 32.65MB/s / Disk: 32.65MB/s
+(08:18:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.35%/32645.97MB/00:01:11 Down: 31.18MB/s / Disk: 31.18MB/s
+(08:18:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.44%/32672.50MB/00:01:11 Down: 26.51MB/s / Disk: 26.51MB/s
+(08:18:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.51%/32704.72MB/00:01:11 Down: 32.2MB/s / Disk: 32.2MB/s
+(08:18:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.59%/32744.42MB/00:01:10 Down: 39.66MB/s / Disk: 38.67MB/s
+(08:18:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.69%/32776.20MB/00:01:10 Down: 31.75MB/s / Disk: 32.75MB/s
+(08:18:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.78%/32801.96MB/00:01:10 Down: 25.74MB/s / Disk: 25.74MB/s
+(08:18:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.84%/32829.28MB/00:01:09 Down: 27.29MB/s / Disk: 27.29MB/s
+(08:18:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.92%/32853.31MB/00:01:09 Down: 24.02MB/s / Disk: 193.98MB/s
+(08:18:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 85.98%/32878.04MB/00:01:09 Down: 24.72MB/s / Disk: 504.38MB/s
+(08:18:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.04%/32893.62MB/00:01:09 Down: 15.57MB/s / Disk: 475.21MB/s
+(08:18:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.08%/32914.05MB/00:01:09 Down: 20.4MB/s / Disk: 569.83MB/s
+(08:18:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.14%/32933.59MB/00:01:09 Down: 19.52MB/s / Disk: 608.91MB/s
+(08:18:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.19%/32951.17MB/00:01:08 Down: 17.57MB/s / Disk: 377.52MB/s
+(08:18:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.23%/32968.84MB/00:01:08 Down: 17.66MB/s / Disk: 391.12MB/s
+(08:18:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.28%/32989.43MB/00:01:08 Down: 20.57MB/s / Disk: 20.57MB/s
+(08:18:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.33%/33012.75MB/00:01:08 Down: 23.31MB/s / Disk: 23.31MB/s
+(08:18:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.4%/33032.94MB/00:01:08 Down: 20.17MB/s / Disk: 20.17MB/s
+(08:18:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.45%/33052.52MB/00:01:08 Down: 19.57MB/s / Disk: 19.57MB/s
+(08:18:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.5%/33073.35MB/00:01:08 Down: 20.81MB/s / Disk: 20.81MB/s
+(08:18:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.55%/33093.76MB/00:01:07 Down: 20.4MB/s / Disk: 20.4MB/s
+(08:18:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.61%/33114.28MB/00:01:07 Down: 20.51MB/s / Disk: 20.51MB/s
+(08:18:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.66%/33131.14MB/00:01:07 Down: 16.84MB/s / Disk: 16.84MB/s
+(08:18:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.71%/33152.79MB/00:01:07 Down: 21.63MB/s / Disk: 21.63MB/s
+(08:18:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.76%/33176.21MB/00:01:07 Down: 23.39MB/s / Disk: 23.39MB/s
+(08:18:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.82%/33198.36MB/00:01:07 Down: 22.13MB/s / Disk: 22.13MB/s
+(08:18:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.88%/33215.92MB/00:01:06 Down: 17.55MB/s / Disk: 16.55MB/s
+(08:18:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.93%/33238.78MB/00:01:06 Down: 22.84MB/s / Disk: 23.84MB/s
+(08:18:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 86.99%/33256.30MB/00:01:06 Down: 17.5MB/s / Disk: 17.5MB/s
+(08:18:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.03%/33275.11MB/00:01:06 Down: 18.79MB/s / Disk: 18.79MB/s
+(08:18:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.08%/33298.49MB/00:01:06 Down: 23.37MB/s / Disk: 23.37MB/s
+(08:18:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.14%/33315.62MB/00:01:06 Down: 17.11MB/s / Disk: 17.11MB/s
+(08:18:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.19%/33337.98MB/00:01:06 Down: 22.35MB/s / Disk: 22.35MB/s
+(08:18:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.25%/33354.97MB/00:01:05 Down: 16.97MB/s / Disk: 16.97MB/s
+(08:18:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.29%/33373.49MB/00:01:05 Down: 18.51MB/s / Disk: 18.51MB/s
+(08:19:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.34%/33389.80MB/00:01:05 Down: 16.3MB/s / Disk: 16.3MB/s
+(08:19:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.38%/33409.01MB/00:01:05 Down: 19.2MB/s / Disk: 19.2MB/s
+(08:19:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.43%/33426.52MB/00:01:05 Down: 17.49MB/s / Disk: 17.49MB/s
+(08:19:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.48%/33445.23MB/00:01:05 Down: 18.7MB/s / Disk: 18.7MB/s
+(08:19:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.53%/33467.77MB/00:01:05 Down: 22.52MB/s / Disk: 22.52MB/s
+(08:19:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.59%/33480.77MB/00:01:04 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:19:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.62%/33505.09MB/00:01:04 Down: 24.3MB/s / Disk: 24.3MB/s
+(08:19:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.68%/33518.09MB/00:01:04 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:19:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.72%/33537.32MB/00:01:04 Down: 19.21MB/s / Disk: 19.21MB/s
+(08:19:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.77%/33558.50MB/00:01:04 Down: 21.18MB/s / Disk: 21.18MB/s
+(08:19:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.82%/33571.50MB/00:01:04 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:19:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.86%/33587.06MB/00:01:04 Down: 15.54MB/s / Disk: 15.54MB/s
+(08:19:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.9%/33611.90MB/00:01:03 Down: 24.81MB/s / Disk: 24.81MB/s
+(08:19:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 87.96%/33630.51MB/00:01:03 Down: 18.61MB/s / Disk: 18.61MB/s
+(08:19:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.01%/33650.21MB/00:01:03 Down: 19.68MB/s / Disk: 19.68MB/s
+(08:19:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.06%/33669.86MB/00:01:03 Down: 19.64MB/s / Disk: 19.64MB/s
+(08:19:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.12%/33689.41MB/00:01:03 Down: 19.54MB/s / Disk: 19.54MB/s
+(08:19:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.17%/33707.22MB/00:01:03 Down: 17.79MB/s / Disk: 17.79MB/s
+(08:19:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.21%/33729.84MB/00:01:02 Down: 22.6MB/s / Disk: 22.6MB/s
+(08:19:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.27%/33748.83MB/00:01:02 Down: 18.98MB/s / Disk: 18.98MB/s
+(08:19:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.32%/33770.67MB/00:01:02 Down: 21.82MB/s / Disk: 21.82MB/s
+(08:19:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.38%/33788.58MB/00:01:02 Down: 17.89MB/s / Disk: 17.89MB/s
+(08:19:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.43%/33805.85MB/00:01:02 Down: 17.26MB/s / Disk: 17.26MB/s
+(08:19:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.47%/33824.57MB/00:01:01 Down: 18.7MB/s / Disk: 18.7MB/s
+(08:19:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.52%/33845.48MB/00:01:01 Down: 20.89MB/s / Disk: 20.89MB/s
+(08:19:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.58%/33862.58MB/00:01:01 Down: 17.09MB/s / Disk: 17.09MB/s
+(08:19:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.62%/33879.10MB/00:01:01 Down: 16.51MB/s / Disk: 16.51MB/s
+(08:19:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.66%/33902.96MB/00:01:01 Down: 23.84MB/s / Disk: 23.84MB/s
+(08:19:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.73%/33919.04MB/00:01:01 Down: 16.06MB/s / Disk: 16.06MB/s
+(08:19:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.77%/33935.41MB/00:01:00 Down: 16.36MB/s / Disk: 16.36MB/s
+(08:19:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.81%/33954.01MB/00:01:00 Down: 18.58MB/s / Disk: 18.58MB/s
+(08:19:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.86%/33975.47MB/00:01:00 Down: 21.44MB/s / Disk: 21.44MB/s
+(08:19:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.92%/33997.55MB/00:01:00 Down: 22.05MB/s / Disk: 22.05MB/s
+(08:19:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 88.97%/34014.16MB/00:01:00 Down: 16.6MB/s / Disk: 16.6MB/s
+(08:19:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.02%/34031.56MB/00:01:00 Down: 17.38MB/s / Disk: 17.38MB/s
+(08:19:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.06%/34051.17MB/00:00:59 Down: 19.6MB/s / Disk: 19.6MB/s
+(08:19:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.11%/34071.80MB/00:00:59 Down: 20.63MB/s / Disk: 19.63MB/s
+(08:19:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.17%/34090.77MB/00:00:59 Down: 18.96MB/s / Disk: 19.96MB/s
+(08:19:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.22%/34108.76MB/00:00:59 Down: 17.98MB/s / Disk: 17.98MB/s
+(08:19:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.26%/34121.77MB/00:00:59 Down: 13MB/s / Disk: 172.83MB/s
+(08:19:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.3%/34132.75MB/00:00:59 Down: 10.97MB/s / Disk: 220.75MB/s
+(08:19:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.33%/34140.73MB/00:00:58 Down: 7.98MB/s / Disk: 227.93MB/s
+(08:19:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.35%/34151.71MB/00:00:58 Down: 10.97MB/s / Disk: 220.8MB/s
+(08:19:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.38%/34161.70MB/00:00:58 Down: 9.98MB/s / Disk: 229.81MB/s
+(08:19:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.4%/34170.67MB/00:00:58 Down: 8.96MB/s / Disk: 228.73MB/s
+(08:19:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.43%/34183.64MB/00:00:58 Down: 12.96MB/s / Disk: 222.86MB/s
+(08:19:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.46%/34195.63MB/00:00:58 Down: 11.99MB/s / Disk: 221.85MB/s
+(08:19:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.49%/34205.63MB/00:00:58 Down: 9.99MB/s / Disk: 209.86MB/s
+(08:19:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.52%/34218.62MB/00:00:58 Down: 12.98MB/s / Disk: 252.79MB/s
+(08:19:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.55%/34228.61MB/00:00:58 Down: 9.98MB/s / Disk: 259.78MB/s
+(08:19:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.58%/34238.59MB/00:00:58 Down: 9.97MB/s / Disk: 269.79MB/s
+(08:19:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.6%/34248.58MB/00:00:58 Down: 9.98MB/s / Disk: 249.8MB/s
+(08:19:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.63%/34256.58MB/00:00:58 Down: 7.99MB/s / Disk: 257.81MB/s
+(08:19:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.65%/34271.53MB/00:00:58 Down: 14.94MB/s / Disk: 254.69MB/s
+(08:19:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.69%/34282.53MB/00:00:58 Down: 10.99MB/s / Disk: 260.73MB/s
+(08:19:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.72%/34291.51MB/00:00:58 Down: 8.97MB/s / Disk: 248.72MB/s
+(08:19:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.74%/34299.50MB/00:00:58 Down: 7.98MB/s / Disk: 100.13MB/s
+(08:19:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.76%/34309.48MB/00:00:58 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:19:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.79%/34319.45MB/00:00:58 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:19:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.82%/34328.44MB/00:00:58 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:20:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.84%/34338.43MB/00:00:57 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:20:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.87%/34350.41MB/00:00:57 Down: 11.97MB/s / Disk: 11.97MB/s
+(08:20:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.9%/34359.40MB/00:00:57 Down: 8.99MB/s / Disk: 7.99MB/s
+(08:20:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.92%/34367.39MB/00:00:57 Down: 7.98MB/s / Disk: 8.98MB/s
+(08:20:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.94%/34377.37MB/00:00:57 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:20:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 89.97%/34388.35MB/00:00:57 Down: 10.98MB/s / Disk: 10.98MB/s
+(08:20:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90%/34404.33MB/00:00:57 Down: 15.97MB/s / Disk: 15.97MB/s
+(08:20:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.04%/34416.30MB/00:00:57 Down: 11.97MB/s / Disk: 11.97MB/s
+(08:20:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.07%/34425.29MB/00:00:57 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:20:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.09%/34433.29MB/00:00:57 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.11%/34443.27MB/00:00:57 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:20:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.14%/34452.26MB/00:00:57 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.16%/34466.26MB/00:00:57 Down: 13.99MB/s / Disk: 13.99MB/s
+(08:20:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.2%/34477.26MB/00:00:57 Down: 10.98MB/s / Disk: 10.98MB/s
+(08:20:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.23%/34487.24MB/00:00:57 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:20:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.25%/34495.24MB/00:00:56 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.28%/34505.23MB/00:00:56 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:20:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.3%/34517.20MB/00:00:56 Down: 11.97MB/s / Disk: 11.97MB/s
+(08:20:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.33%/34524.20MB/00:00:56 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:20:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.35%/34534.18MB/00:00:56 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:20:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.38%/34545.14MB/00:00:56 Down: 10.95MB/s / Disk: 10.95MB/s
+(08:20:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.41%/34555.11MB/00:00:56 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:20:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.43%/34564.12MB/00:00:56 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.46%/34574.11MB/00:00:56 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.48%/34581.09MB/00:00:56 Down: 6.97MB/s / Disk: 6.97MB/s
+(08:20:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.5%/34592.07MB/00:00:56 Down: 10.98MB/s / Disk: 10.98MB/s
+(08:20:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.53%/34599.06MB/00:00:56 Down: 6.98MB/s / Disk: 6.98MB/s
+(08:20:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.55%/34612.04MB/00:00:56 Down: 12.97MB/s / Disk: 12.97MB/s
+(08:20:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.58%/34625.01MB/00:00:56 Down: 12.95MB/s / Disk: 12.95MB/s
+(08:20:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.62%/34633.99MB/00:00:56 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:20:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.64%/34642.00MB/00:00:56 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.66%/34652.00MB/00:00:56 Down: 10MB/s / Disk: 10MB/s
+(08:20:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.69%/34662.00MB/00:00:55 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.71%/34672.99MB/00:00:55 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:20:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.74%/34682.99MB/00:00:55 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.77%/34691.99MB/00:00:55 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.79%/34699.99MB/00:00:55 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.81%/34707.99MB/00:00:55 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.83%/34717.99MB/00:00:55 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.86%/34729.99MB/00:00:55 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:20:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.89%/34738.97MB/00:00:55 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:20:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.91%/34747.97MB/00:00:55 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.94%/34755.97MB/00:00:55 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.96%/34767.93MB/00:00:55 Down: 11.95MB/s / Disk: 11.95MB/s
+(08:20:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 90.99%/34779.91MB/00:00:55 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:20:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.02%/34789.89MB/00:00:55 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:20:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.05%/34798.88MB/00:00:54 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:20:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.07%/34806.88MB/00:00:54 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.09%/34814.89MB/00:00:54 Down: 8MB/s / Disk: 8MB/s
+(08:20:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.11%/34824.89MB/00:00:54 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.14%/34828.89MB/00:00:54 Down: 4MB/s / Disk: 4MB/s
+(08:20:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.15%/34836.89MB/00:00:54 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:20:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.17%/34846.89MB/00:00:54 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:20:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.2%/34855.89MB/00:00:54 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.22%/34864.89MB/00:00:54 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.24%/34874.88MB/00:00:54 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:20:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.27%/34884.86MB/00:00:54 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:20:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.3%/34894.86MB/00:00:54 Down: 10MB/s / Disk: 10MB/s
+(08:20:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.32%/34903.86MB/00:00:54 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:20:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.34%/34913.86MB/00:00:54 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:21:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.37%/34927.85MB/00:00:54 Down: 13.98MB/s / Disk: 13.98MB/s
+(08:21:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.41%/34936.85MB/00:00:53 Down: 9MB/s / Disk: 9MB/s
+(08:21:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.43%/34946.85MB/00:00:53 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:21:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.46%/34958.85MB/00:00:53 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:21:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.49%/34968.82MB/00:00:53 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:21:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.51%/34982.75MB/00:00:53 Down: 13.91MB/s / Disk: 13.91MB/s
+(08:21:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.55%/34993.69MB/00:00:53 Down: 10.93MB/s / Disk: 10.93MB/s
+(08:21:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.58%/35003.63MB/00:00:53 Down: 9.94MB/s / Disk: 9.94MB/s
+(08:21:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.61%/35012.57MB/00:00:53 Down: 8.92MB/s / Disk: 8.92MB/s
+(08:21:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.63%/35023.51MB/00:00:53 Down: 10.93MB/s / Disk: 10.93MB/s
+(08:21:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.66%/35031.49MB/00:00:53 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:21:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.68%/35035.49MB/00:00:52 Down: 4MB/s / Disk: 4MB/s
+(08:21:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.69%/35043.45MB/00:00:52 Down: 7.95MB/s / Disk: 7.95MB/s
+(08:21:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.71%/35052.39MB/00:00:52 Down: 8.93MB/s / Disk: 8.93MB/s
+(08:21:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.73%/35066.25MB/00:00:52 Down: 13.86MB/s / Disk: 12.93MB/s
+(08:21:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.77%/35074.25MB/00:00:52 Down: 7.99MB/s / Disk: 8.92MB/s
+(08:21:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.79%/35086.23MB/00:00:52 Down: 11.97MB/s / Disk: 11.97MB/s
+(08:21:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.82%/35093.23MB/00:00:52 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:21:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.84%/35101.23MB/00:00:52 Down: 8MB/s / Disk: 8MB/s
+(08:21:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.86%/35111.22MB/00:00:52 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:21:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.89%/35117.22MB/00:00:52 Down: 5.99MB/s / Disk: 5.99MB/s
+(08:21:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.9%/35126.22MB/00:00:52 Down: 9MB/s / Disk: 9MB/s
+(08:21:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.93%/35135.22MB/00:00:52 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:21:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.95%/35141.22MB/00:00:52 Down: 6MB/s / Disk: 6MB/s
+(08:21:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.97%/35148.21MB/00:00:52 Down: 6.98MB/s / Disk: 6.98MB/s
+(08:21:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 91.98%/35159.21MB/00:00:52 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:21:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.01%/35170.21MB/00:00:51 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:21:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.04%/35179.20MB/00:00:51 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:21:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.07%/35187.21MB/00:00:51 Down: 8MB/s / Disk: 8MB/s
+(08:21:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.09%/35206.20MB/00:00:51 Down: 18.98MB/s / Disk: 18.98MB/s
+(08:21:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.14%/35214.20MB/00:00:51 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:21:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.16%/35236.17MB/00:00:51 Down: 21.96MB/s / Disk: 21.96MB/s
+(08:21:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.21%/35248.17MB/00:00:51 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:21:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.25%/35260.16MB/00:00:50 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:21:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.28%/35267.16MB/00:00:50 Down: 7MB/s / Disk: 7MB/s
+(08:21:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.3%/35274.16MB/00:00:50 Down: 7MB/s / Disk: 7MB/s
+(08:21:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.31%/35291.16MB/00:00:50 Down: 16.98MB/s / Disk: 16.98MB/s
+(08:21:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.36%/35297.16MB/00:00:50 Down: 6MB/s / Disk: 6MB/s
+(08:21:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.37%/35309.16MB/00:00:50 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:21:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.41%/35319.15MB/00:00:50 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:21:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.43%/35336.15MB/00:00:50 Down: 16.98MB/s / Disk: 16.98MB/s
+(08:21:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.48%/35349.13MB/00:00:49 Down: 12.97MB/s / Disk: 12.97MB/s
+(08:21:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.51%/35366.10MB/00:00:49 Down: 16.96MB/s / Disk: 16.96MB/s
+(08:21:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.55%/35381.10MB/00:00:49 Down: 14.99MB/s / Disk: 14.99MB/s
+(08:21:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.59%/35397.09MB/00:00:49 Down: 15.98MB/s / Disk: 15.98MB/s
+(08:21:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.64%/35412.09MB/00:00:49 Down: 14.99MB/s / Disk: 14.99MB/s
+(08:21:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.67%/35440.06MB/00:00:48 Down: 27.94MB/s / Disk: 27.94MB/s
+(08:21:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.75%/35476.05MB/00:00:48 Down: 35.96MB/s / Disk: 35.96MB/s
+(08:21:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.84%/35507.04MB/00:00:47 Down: 30.97MB/s / Disk: 30.97MB/s
+(08:21:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 92.92%/35538.03MB/00:00:47 Down: 30.97MB/s / Disk: 30.97MB/s
+(08:21:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93%/35561.02MB/00:00:46 Down: 22.96MB/s / Disk: 22.96MB/s
+(08:21:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.06%/35585.00MB/00:00:46 Down: 23.97MB/s / Disk: 23.97MB/s
+(08:21:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.13%/35591.99MB/00:00:46 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:21:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.15%/35597.98MB/00:00:46 Down: 5.99MB/s / Disk: 5.99MB/s
+(08:21:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.16%/35610.98MB/00:00:45 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:21:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.2%/35622.98MB/00:00:45 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:21:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.23%/35630.98MB/00:00:45 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:21:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.25%/35637.98MB/00:00:45 Down: 7MB/s / Disk: 7MB/s
+(08:21:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.27%/35645.97MB/00:00:45 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:21:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.29%/35655.97MB/00:00:45 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:22:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.31%/35666.98MB/00:00:45 Down: 11MB/s / Disk: 11MB/s
+(08:22:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.34%/35677.97MB/00:00:45 Down: 10.98MB/s / Disk: 10.98MB/s
+(08:22:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.37%/35686.97MB/00:00:45 Down: 9MB/s / Disk: 9MB/s
+(08:22:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.39%/35694.97MB/00:00:44 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.42%/35703.96MB/00:00:44 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:22:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.44%/35717.97MB/00:00:44 Down: 13.99MB/s / Disk: 13.99MB/s
+(08:22:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.48%/35728.96MB/00:00:44 Down: 10.98MB/s / Disk: 10.98MB/s
+(08:22:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.5%/35743.96MB/00:00:44 Down: 14.99MB/s / Disk: 14.99MB/s
+(08:22:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.54%/35751.95MB/00:00:44 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.56%/35756.96MB/00:00:44 Down: 5MB/s / Disk: 5MB/s
+(08:22:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.58%/35767.92MB/00:00:44 Down: 10.95MB/s / Disk: 10.95MB/s
+(08:22:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.61%/35777.91MB/00:00:43 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:22:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.63%/35785.90MB/00:00:43 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.65%/35797.90MB/00:00:43 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:22:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.68%/35808.72MB/00:00:43 Down: 10.82MB/s / Disk: 10.82MB/s
+(08:22:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.71%/35815.70MB/00:00:43 Down: 6.97MB/s / Disk: 6.97MB/s
+(08:22:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.73%/35828.70MB/00:00:43 Down: 12.98MB/s / Disk: 12.98MB/s
+(08:22:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.77%/35837.69MB/00:00:43 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:22:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.79%/35851.69MB/00:00:43 Down: 13.98MB/s / Disk: 13.98MB/s
+(08:22:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.83%/35860.65MB/00:00:42 Down: 8.96MB/s / Disk: 8.96MB/s
+(08:22:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.85%/35874.61MB/00:00:42 Down: 13.95MB/s / Disk: 13.95MB/s
+(08:22:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.89%/35881.60MB/00:00:42 Down: 6.98MB/s / Disk: 6.98MB/s
+(08:22:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.9%/35891.57MB/00:00:42 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:22:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.93%/35900.55MB/00:00:42 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:22:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.95%/35908.55MB/00:00:42 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 93.97%/35916.55MB/00:00:42 Down: 8MB/s / Disk: 8MB/s
+(08:22:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94%/35926.53MB/00:00:42 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:22:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.02%/35934.53MB/00:00:41 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.04%/35942.53MB/00:00:41 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.06%/35951.52MB/00:00:41 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:22:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.09%/35964.53MB/00:00:41 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:22:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.12%/35972.52MB/00:00:41 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:22:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.14%/35985.51MB/00:00:41 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:22:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.18%/35992.51MB/00:00:41 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:22:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.19%/36001.51MB/00:00:41 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:22:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.22%/36010.48MB/00:00:40 Down: 8.96MB/s / Disk: 8.96MB/s
+(08:22:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.24%/36018.42MB/00:00:40 Down: 7.93MB/s / Disk: 7.93MB/s
+(08:22:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.26%/36030.41MB/00:00:40 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:22:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.29%/36041.36MB/00:00:40 Down: 10.94MB/s / Disk: 10.94MB/s
+(08:22:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.32%/36051.33MB/00:00:40 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:22:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.35%/36060.33MB/00:00:40 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:22:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.37%/36065.31MB/00:00:40 Down: 4.98MB/s / Disk: 4.98MB/s
+(08:22:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.38%/36073.31MB/00:00:40 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.41%/36082.31MB/00:00:40 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:22:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.43%/36095.28MB/00:00:39 Down: 12.97MB/s / Disk: 12.97MB/s
+(08:22:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.46%/36100.28MB/00:00:39 Down: 4.99MB/s / Disk: 4.99MB/s
+(08:22:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.48%/36108.22MB/00:00:39 Down: 7.93MB/s / Disk: 7.93MB/s
+(08:22:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.5%/36119.15MB/00:00:39 Down: 10.93MB/s / Disk: 10.93MB/s
+(08:22:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.53%/36131.12MB/00:00:39 Down: 11.96MB/s / Disk: 11.96MB/s
+(08:22:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.56%/36141.05MB/00:00:39 Down: 9.92MB/s / Disk: 9.92MB/s
+(08:22:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.58%/36151.04MB/00:00:39 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:22:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.61%/36165.05MB/00:00:38 Down: 13.99MB/s / Disk: 13.99MB/s
+(08:22:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.65%/36175.03MB/00:00:38 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:22:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.67%/36185.01MB/00:00:38 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:22:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.7%/36193.01MB/00:00:38 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.72%/36204.86MB/00:00:38 Down: 11.85MB/s / Disk: 11.85MB/s
+(08:22:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.75%/36212.86MB/00:00:38 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:22:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.77%/36221.80MB/00:00:38 Down: 8.92MB/s / Disk: 8.92MB/s
+(08:22:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.79%/36230.72MB/00:00:37 Down: 8.92MB/s / Disk: 8.92MB/s
+(08:22:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.82%/36240.62MB/00:00:37 Down: 9.89MB/s / Disk: 9.89MB/s
+(08:23:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.84%/36252.56MB/00:00:37 Down: 11.93MB/s / Disk: 11.93MB/s
+(08:23:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.87%/36263.53MB/00:00:37 Down: 10.96MB/s / Disk: 10.96MB/s
+(08:23:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.9%/36271.53MB/00:00:37 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.92%/36280.52MB/00:00:37 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:23:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.95%/36290.50MB/00:00:37 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:23:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.97%/36298.46MB/00:00:36 Down: 7.96MB/s / Disk: 7.96MB/s
+(08:23:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 94.99%/36307.45MB/00:00:36 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.02%/36317.43MB/00:00:36 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:23:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.04%/36326.40MB/00:00:36 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:23:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.07%/36336.39MB/00:00:36 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:23:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.09%/36345.39MB/00:00:36 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.12%/36352.39MB/00:00:36 Down: 7MB/s / Disk: 7MB/s
+(08:23:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.14%/36362.37MB/00:00:36 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:23:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.16%/36370.35MB/00:00:35 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.18%/36378.35MB/00:00:35 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.2%/36386.33MB/00:00:35 Down: 7.98MB/s / Disk: 6.98MB/s
+(08:23:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.22%/36394.33MB/00:00:35 Down: 7.99MB/s / Disk: 8.99MB/s
+(08:23:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.25%/36402.33MB/00:00:35 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.27%/36413.31MB/00:00:35 Down: 10.96MB/s / Disk: 10.96MB/s
+(08:23:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.3%/36420.30MB/00:00:35 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:23:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.31%/36432.30MB/00:00:35 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:23:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.34%/36443.28MB/00:00:34 Down: 10.97MB/s / Disk: 10.97MB/s
+(08:23:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.37%/36451.27MB/00:00:34 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.39%/36460.23MB/00:00:34 Down: 8.96MB/s / Disk: 8.96MB/s
+(08:23:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.42%/36468.21MB/00:00:34 Down: 7.97MB/s / Disk: 6.97MB/s
+(08:23:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.44%/36477.20MB/00:00:34 Down: 8.98MB/s / Disk: 9.98MB/s
+(08:23:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.46%/36485.20MB/00:00:34 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.48%/36493.20MB/00:00:34 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.5%/36501.20MB/00:00:33 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.53%/36510.20MB/00:00:33 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.55%/36518.19MB/00:00:33 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.57%/36530.17MB/00:00:33 Down: 11.98MB/s / Disk: 11.98MB/s
+(08:23:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.6%/36540.14MB/00:00:33 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:23:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.63%/36548.08MB/00:00:33 Down: 7.94MB/s / Disk: 7.94MB/s
+(08:23:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.65%/36556.08MB/00:00:33 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.67%/36566.05MB/00:00:32 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:23:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.69%/36574.04MB/00:00:32 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.72%/36587.03MB/00:00:32 Down: 12.99MB/s / Disk: 12.99MB/s
+(08:23:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.75%/36597.03MB/00:00:32 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:23:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.78%/36606.02MB/00:00:32 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.8%/36611.02MB/00:00:32 Down: 4.99MB/s / Disk: 4.99MB/s
+(08:23:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.81%/36620.00MB/00:00:32 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:23:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.84%/36627.98MB/00:00:31 Down: 7.97MB/s / Disk: 7.97MB/s
+(08:23:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.86%/36636.96MB/00:00:31 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:23:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.88%/36644.95MB/00:00:31 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:23:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.9%/36654.94MB/00:00:31 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:23:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.93%/36663.92MB/00:00:31 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:23:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.95%/36672.92MB/00:00:31 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.97%/36678.91MB/00:00:31 Down: 5.99MB/s / Disk: 5.99MB/s
+(08:23:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 95.99%/36686.91MB/00:00:30 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.01%/36696.92MB/00:00:30 Down: 10MB/s / Disk: 10MB/s
+(08:23:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.04%/36704.92MB/00:00:30 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.06%/36714.91MB/00:00:30 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:23:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.08%/36722.91MB/00:00:30 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.11%/36732.91MB/00:00:30 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:23:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.13%/36741.90MB/00:00:30 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:23:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.16%/36751.90MB/00:00:29 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:23:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.18%/36763.89MB/00:00:29 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:23:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.21%/36771.89MB/00:00:29 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:23:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.23%/36781.88MB/00:00:29 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:24:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.26%/36789.87MB/00:00:29 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:24:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.28%/36798.87MB/00:00:29 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:24:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.3%/36807.86MB/00:00:28 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:24:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.33%/36815.85MB/00:00:28 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:24:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.35%/36826.85MB/00:00:28 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:24:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.38%/36835.85MB/00:00:28 Down: 9MB/s / Disk: 9MB/s
+(08:24:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.4%/36844.85MB/00:00:28 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:24:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.42%/36854.84MB/00:00:28 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:24:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.45%/36862.84MB/00:00:27 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:24:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.47%/36872.82MB/00:00:27 Down: 9.97MB/s / Disk: 9.97MB/s
+(08:24:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.5%/36882.77MB/00:00:27 Down: 9.94MB/s / Disk: 9.94MB/s
+(08:24:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.52%/36895.72MB/00:00:27 Down: 12.94MB/s / Disk: 12.94MB/s
+(08:24:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.56%/36903.71MB/00:00:27 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:24:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.58%/36911.71MB/00:00:27 Down: 8MB/s / Disk: 8MB/s
+(08:24:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.6%/36919.65MB/00:00:26 Down: 7.94MB/s / Disk: 7.94MB/s
+(08:24:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.62%/36930.62MB/00:00:26 Down: 10.95MB/s / Disk: 10.95MB/s
+(08:24:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.65%/36938.55MB/00:00:26 Down: 7.92MB/s / Disk: 7.92MB/s
+(08:24:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.67%/36946.54MB/00:00:26 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:24:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.69%/36956.53MB/00:00:26 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:24:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.72%/36968.53MB/00:00:26 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:24:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.75%/36972.53MB/00:00:25 Down: 4MB/s / Disk: 4MB/s
+(08:24:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.76%/36980.52MB/00:00:25 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:24:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.78%/36988.50MB/00:00:25 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:24:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.8%/36998.49MB/00:00:25 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:24:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.83%/37008.48MB/00:00:25 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:24:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.85%/37019.47MB/00:00:25 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:24:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.88%/37029.46MB/00:00:25 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:24:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.91%/37038.46MB/00:00:24 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:24:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.93%/37048.42MB/00:00:24 Down: 9.95MB/s / Disk: 9.95MB/s
+(08:24:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.96%/37059.39MB/00:00:24 Down: 10.97MB/s / Disk: 10.97MB/s
+(08:24:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 96.99%/37073.32MB/00:00:24 Down: 13.91MB/s / Disk: 13.91MB/s
+(08:24:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.02%/37081.32MB/00:00:24 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:24:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.04%/37093.26MB/00:00:23 Down: 11.93MB/s / Disk: 11.93MB/s
+(08:24:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.07%/37105.19MB/00:00:23 Down: 11.92MB/s / Disk: 11.92MB/s
+(08:24:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.11%/37122.13MB/00:00:23 Down: 16.92MB/s / Disk: 16.92MB/s
+(08:24:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.15%/37134.97MB/00:00:23 Down: 12.83MB/s / Disk: 12.83MB/s
+(08:24:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.18%/37147.86MB/00:00:22 Down: 12.89MB/s / Disk: 12.89MB/s
+(08:24:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.22%/37156.87MB/00:00:22 Down: 9MB/s / Disk: 9MB/s
+(08:24:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.24%/37164.84MB/00:00:22 Down: 7.97MB/s / Disk: 7.97MB/s
+(08:24:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.26%/37174.76MB/00:00:22 Down: 9.91MB/s / Disk: 9.91MB/s
+(08:24:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.29%/37184.73MB/00:00:22 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:24:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.31%/37192.71MB/00:00:21 Down: 7.97MB/s / Disk: 7.97MB/s
+(08:24:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.33%/37204.67MB/00:00:21 Down: 11.95MB/s / Disk: 11.95MB/s
+(08:24:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.37%/37215.59MB/00:00:21 Down: 10.91MB/s / Disk: 10.91MB/s
+(08:24:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.39%/37225.50MB/00:00:21 Down: 9.9MB/s / Disk: 9.9MB/s
+(08:24:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.42%/37236.43MB/00:00:21 Down: 10.92MB/s / Disk: 10.92MB/s
+(08:24:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.45%/37244.38MB/00:00:20 Down: 7.94MB/s / Disk: 7.94MB/s
+(08:24:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.47%/37253.33MB/00:00:20 Down: 8.94MB/s / Disk: 8.94MB/s
+(08:24:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.49%/37264.29MB/00:00:20 Down: 10.96MB/s / Disk: 10.96MB/s
+(08:24:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.52%/37276.28MB/00:00:20 Down: 11.97MB/s / Disk: 11.97MB/s
+(08:24:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.55%/37287.23MB/00:00:20 Down: 10.94MB/s / Disk: 10.94MB/s
+(08:24:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.58%/37298.16MB/00:00:19 Down: 10.92MB/s / Disk: 10.92MB/s
+(08:24:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.61%/37307.10MB/00:00:19 Down: 8.93MB/s / Disk: 8.93MB/s
+(08:24:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.63%/37315.02MB/00:00:19 Down: 7.92MB/s / Disk: 7.92MB/s
+(08:24:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.66%/37324.91MB/00:00:19 Down: 9.88MB/s / Disk: 9.88MB/s
+(08:24:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.68%/37334.88MB/00:00:19 Down: 9.95MB/s / Disk: 9.95MB/s
+(08:24:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.71%/37342.81MB/00:00:18 Down: 7.93MB/s / Disk: 7.93MB/s
+(08:24:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.73%/37353.76MB/00:00:18 Down: 10.94MB/s / Disk: 10.94MB/s
+(08:24:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.76%/37369.70MB/00:00:18 Down: 15.93MB/s / Disk: 15.93MB/s
+(08:24:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.8%/37379.65MB/00:00:18 Down: 9.94MB/s / Disk: 9.94MB/s
+(08:25:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.82%/37391.54MB/00:00:18 Down: 11.88MB/s / Disk: 11.88MB/s
+(08:25:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.86%/37399.54MB/00:00:17 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:25:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.88%/37410.49MB/00:00:17 Down: 10.94MB/s / Disk: 10.94MB/s
+(08:25:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.9%/37422.40MB/00:00:17 Down: 11.9MB/s / Disk: 11.9MB/s
+(08:25:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.94%/37435.35MB/00:00:17 Down: 12.93MB/s / Disk: 12.93MB/s
+(08:25:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.97%/37443.30MB/00:00:16 Down: 7.95MB/s / Disk: 7.95MB/s
+(08:25:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 97.99%/37451.26MB/00:00:16 Down: 7.95MB/s / Disk: 7.95MB/s
+(08:25:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.01%/37461.20MB/00:00:16 Down: 9.93MB/s / Disk: 9.93MB/s
+(08:25:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.04%/37469.20MB/00:00:16 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:25:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.06%/37481.10MB/00:00:16 Down: 11.89MB/s / Disk: 11.89MB/s
+(08:25:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.09%/37492.07MB/00:00:16 Down: 10.96MB/s / Disk: 10.96MB/s
+(08:25:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.12%/37504.04MB/00:00:15 Down: 11.96MB/s / Disk: 11.96MB/s
+(08:25:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.15%/37514.99MB/00:00:15 Down: 10.94MB/s / Disk: 10.94MB/s
+(08:25:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.18%/37524.94MB/00:00:15 Down: 9.94MB/s / Disk: 9.94MB/s
+(08:25:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.2%/37534.90MB/00:00:15 Down: 9.95MB/s / Disk: 9.95MB/s
+(08:25:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.23%/37541.88MB/00:00:14 Down: 6.98MB/s / Disk: 6.98MB/s
+(08:25:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.25%/37549.88MB/00:00:14 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:25:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.27%/37558.86MB/00:00:14 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:25:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.29%/37567.81MB/00:00:14 Down: 8.94MB/s / Disk: 8.94MB/s
+(08:25:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.32%/37584.73MB/00:00:14 Down: 16.9MB/s / Disk: 16.9MB/s
+(08:25:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.36%/37597.62MB/00:00:13 Down: 12.88MB/s / Disk: 12.88MB/s
+(08:25:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.39%/37605.57MB/00:00:13 Down: 7.94MB/s / Disk: 7.94MB/s
+(08:25:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.42%/37614.54MB/00:00:13 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:25:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.44%/37625.41MB/00:00:13 Down: 10.86MB/s / Disk: 10.86MB/s
+(08:25:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.47%/37638.38MB/00:00:13 Down: 12.95MB/s / Disk: 12.95MB/s
+(08:25:25) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.5%/37647.35MB/00:00:12 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:25:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.52%/37655.35MB/00:00:12 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:25:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.55%/37664.31MB/00:00:12 Down: 8.96MB/s / Disk: 8.96MB/s
+(08:25:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.57%/37673.31MB/00:00:12 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:25:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.59%/37682.31MB/00:00:12 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:25:30) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.62%/37690.31MB/00:00:11 Down: 8MB/s / Disk: 8MB/s
+(08:25:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.64%/37697.31MB/00:00:11 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:25:32) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.66%/37712.27MB/00:00:11 Down: 14.95MB/s / Disk: 14.95MB/s
+(08:25:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.69%/37721.25MB/00:00:11 Down: 8.97MB/s / Disk: 8.97MB/s
+(08:25:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.72%/37730.25MB/00:00:10 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:25:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.74%/37735.25MB/00:00:10 Down: 4.99MB/s / Disk: 4.99MB/s
+(08:25:36) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.75%/37744.25MB/00:00:10 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:25:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.78%/37759.25MB/00:00:10 Down: 14.98MB/s / Disk: 14.98MB/s
+(08:25:38) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.82%/37768.24MB/00:00:10 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:25:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.84%/37780.24MB/00:00:09 Down: 12MB/s / Disk: 12MB/s
+(08:25:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.87%/37787.24MB/00:00:09 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:25:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.89%/37796.23MB/00:00:09 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:25:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.91%/37806.23MB/00:00:09 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:25:43) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.94%/37817.23MB/00:00:09 Down: 11MB/s / Disk: 11MB/s
+(08:25:44) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 98.97%/37827.23MB/00:00:08 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:25:45) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99%/37839.23MB/00:00:08 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:25:46) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.03%/37846.23MB/00:00:08 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:25:47) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.05%/37856.23MB/00:00:08 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:25:48) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.07%/37865.23MB/00:00:08 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:25:49) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.09%/37877.23MB/00:00:07 Down: 11.99MB/s / Disk: 11.99MB/s
+(08:25:50) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.13%/37888.23MB/00:00:07 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:25:51) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.16%/37896.23MB/00:00:07 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:25:52) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.18%/37904.57MB/00:00:07 Down: 8.34MB/s / Disk: 8.34MB/s
+(08:25:53) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.2%/37912.23MB/00:00:07 Down: 7.66MB/s / Disk: 7.66MB/s
+(08:25:54) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.22%/37920.20MB/00:00:06 Down: 7.96MB/s / Disk: 7.96MB/s
+(08:25:55) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.24%/37930.01MB/00:00:06 Down: 9.81MB/s / Disk: 9.81MB/s
+(08:25:56) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.26%/37938.85MB/00:00:06 Down: 8.84MB/s / Disk: 8.84MB/s
+(08:25:57) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.29%/37949.13MB/00:00:06 Down: 10.27MB/s / Disk: 10.27MB/s
+(08:25:58) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.31%/37957.53MB/00:00:06 Down: 8.39MB/s / Disk: 8.39MB/s
+(08:25:59) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.34%/37965.24MB/00:00:05 Down: 7.71MB/s / Disk: 7.71MB/s
+(08:26:00) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.36%/37975.11MB/00:00:05 Down: 9.86MB/s / Disk: 9.86MB/s
+(08:26:01) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.38%/37984.99MB/00:00:05 Down: 9.87MB/s / Disk: 9.87MB/s
+(08:26:02) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.41%/37995.87MB/00:00:05 Down: 10.88MB/s / Disk: 10.88MB/s
+(08:26:03) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.44%/38005.82MB/00:00:04 Down: 9.94MB/s / Disk: 9.94MB/s
+(08:26:04) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.46%/38019.75MB/00:00:04 Down: 13.92MB/s / Disk: 13.92MB/s
+(08:26:05) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.5%/38029.71MB/00:00:04 Down: 9.95MB/s / Disk: 9.95MB/s
+(08:26:06) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.53%/38038.67MB/00:00:04 Down: 8.95MB/s / Disk: 8.95MB/s
+(08:26:07) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.55%/38048.64MB/00:00:03 Down: 9.96MB/s / Disk: 9.96MB/s
+(08:26:08) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.57%/38056.64MB/00:00:03 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:26:09) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.6%/38067.64MB/00:00:03 Down: 10.99MB/s / Disk: 10.99MB/s
+(08:26:10) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.62%/38076.63MB/00:00:03 Down: 8.99MB/s / Disk: 8.99MB/s
+(08:26:11) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.65%/38085.62MB/00:00:03 Down: 8.98MB/s / Disk: 8.98MB/s
+(08:26:12) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.67%/38093.61MB/00:00:02 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:26:13) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.69%/38104.60MB/00:00:02 Down: 10.97MB/s / Disk: 10.97MB/s
+(08:26:14) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.72%/38114.60MB/00:00:02 Down: 9.99MB/s / Disk: 9.99MB/s
+(08:26:15) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.75%/38121.59MB/00:00:02 Down: 6.99MB/s / Disk: 6.99MB/s
+(08:26:16) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.77%/38129.59MB/00:00:02 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:26:17) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.79%/38142.58MB/00:00:01 Down: 12.98MB/s / Disk: 12.98MB/s
+(08:26:18) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.82%/38150.58MB/00:00:01 Down: 8MB/s / Disk: 8MB/s
+(08:26:19) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.84%/38161.56MB/00:00:01 Down: 10.97MB/s / Disk: 10.97MB/s
+(08:26:20) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.87%/38171.55MB/00:00:01 Down: 9.98MB/s / Disk: 9.98MB/s
+(08:26:21) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.9%/38185.52MB/00:00:00 Down: 13.96MB/s / Disk: 13.96MB/s
+(08:26:22) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.93%/38193.52MB/00:00:00 Down: 7.98MB/s / Disk: 7.98MB/s
+(08:26:23) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.95%/38201.51MB/00:00:00 Down: 7.99MB/s / Disk: 7.99MB/s
+(08:26:24) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 99.98%/38211.05MB/00:00:00 Down: 9.54MB/s / Disk: 39.53MB/s
+(08:26:26) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 349.72MB/s
+(08:26:27) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 389.69MB/s
+(08:26:28) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 369.62MB/s
+(08:26:29) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 379.79MB/s
+(08:26:31) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 329.74MB/s
+(08:26:33) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 509.59MB/s
+(08:26:34) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 479.62MB/s
+(08:26:35) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 489.62MB/s
+(08:26:37) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 579.39MB/s
+(08:26:39) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 489.49MB/s
+(08:26:40) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 409.82MB/s
+(08:26:41) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 359.63MB/s
+(08:26:42) INFO:    [Gog]:              Progress for The Witcher 3: Wild Hunt: 100%/38211.05MB/00:00:00 Down: 0MB/s / Disk: 449.93MB/s
+(08:26:43) INFO:    [Gog]:              Got install info from cache for 1207664643 on windows platform
+(08:26:43) INFO:    [Backend]:          Adding shortcuts for The Witcher 3: Wild Hunt
+(08:26:43) INFO:    [DownloadManager]:  Finished Installation of 1207664643
+(08:26:43) INFO:    [DownloadManager]:  1207664643 added to download manager finished.
+(08:26:44) INFO:    [DownloadManager]:  1207664643 removed from download manager.
+(08:26:44) INFO:    [Frontend]:         Refreshing gog Library
+(08:26:44) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:26:44) INFO:    [Gog]:              Getting GOG library
+(08:26:44) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(08:26:45) INFO:    [Gog]:              Saved games data
+(08:26:45) INFO:    [Frontend]:         No cache found, getting data from legendary...
+(08:26:45) INFO:    [Legendary]:        Refreshing library...
+(08:26:45) INFO:    [Legendary]:        Refreshing Epic Games...
+(08:26:45) INFO:    [Legendary]:        Game list updated, got 0 games & DLCs
+(08:26:45) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(09:18:43) INFO:    [Frontend]:         Refreshing undefined Library
+(09:18:43) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(09:18:43) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(09:18:43) INFO:    [Legendary]:        Refreshing library...
+(09:18:43) INFO:    [Legendary]:        Refreshing Epic Games...
+(09:18:43) INFO:    [Legendary]:        Game list updated, got 1 games & DLCs
+(09:18:43) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(09:18:43) INFO:    [Gog]:              Getting GOG library
+(09:18:43) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(09:18:45) INFO:    [Gog]:              Saved games data
+(09:18:45) INFO:    [Frontend]:         No cache found, getting data from legendary...
+(09:18:45) INFO:    [Legendary]:        Refreshing library...
+(09:18:45) INFO:    [Legendary]:        Refreshing Epic Games...
+(09:18:45) INFO:    [Legendary]:        Game list updated, got 1 games & DLCs
+(09:18:45) INFO:    [Frontend]:         Force Update
+(09:18:45) INFO:    [Legendary]:        Running command: XDG_CONFIG_HOME=/home/khing/.config/heroic/legendaryConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(20:45:20) INFO:    [Backend]:          Launching The Witcher 3: Wild Hunt (1207664643)
+(20:45:20) INFO:    [Backend]:          Preventing display from sleep
+(20:45:20) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:20) INFO:    [Backend]:          Preventing machine to sleep
+(20:45:20) INFO:    [Backend]:          Stopping Power Saver Blocker
+(20:45:20) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:20) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:20) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:20) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:20) DEBUG:   [Backend]:          Running Wine command: wineboot --init
+(20:45:37) INFO:    [Backend]:          Created/Updated Wineprefix at /home/khing/Games/Heroic/Prefixes/default
+(20:45:37) WARNING: [Gog]:              Running setup instructions, if you notice issues with launching a game, please report it on our Discord server
+(20:45:37) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:37) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:37) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:37) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:37) DEBUG:   [Backend]:          Running Wine command: wineboot --init
+(20:45:41) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:41) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:41) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:41) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:41) DEBUG:   [Backend]:          Running Wine command: cmd /c winepath -u %APPDATA%
+(20:45:41) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:41) DEBUG:   [Backend]:          Running Wine command: cmd /c winepath -u %USERPROFILE%/Documents
+(20:45:41) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:41) DEBUG:   [Backend]:          Running Wine command: cmd /c winepath -w /home/khing/Games/Heroic/The Witcher 3 Wild Hunt
+(20:45:45) ERROR:   [Gog]:              Setup: Looks like you have found new setup instruction, please report it on our Discord or GitHub appName: 1207664643, action: savePath
+(20:45:45) INFO:    [Gog]:              Setup: Adding a registry key HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 SKU DIGITAL
+(20:45:45) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:45) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:45) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 /d DIGITAL /v SKU /t REG_SZ /f /reg:32
+(20:45:49) ERROR:   [Gog]:              Setup: setIni file doesn't exists
+(20:45:49) INFO:    [Gog]:              Setup: Adding a registry key HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 languageText english
+(20:45:49) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:49) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:49) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 /d english /v languageText /t REG_SZ /f /reg:32
+(20:45:52) INFO:    [Gog]:              Setup: Adding a registry key HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 languageVoiceover english
+(20:45:52) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:52) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:52) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_LOCAL_MACHINE\SOFTWARE\GOG.com\Games\1207664643 /d english /v languageVoiceover /t REG_SZ /f /reg:32
+(20:45:56) INFO:    [Gog]:              Setup: Finished
+(20:45:56) INFO:    [DXVKInstaller]:    installing dxvk on... /home/khing/Games/Heroic/Prefixes/default
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d10core /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d11 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d9 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v dxgi /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d10core /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d11 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d9 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v dxgi /d native,builtin /f
+(20:45:56) INFO:    [DXVKInstaller]:    installing vkd3d on... /home/khing/Games/Heroic/Prefixes/default
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d12 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d12core /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d12 /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) DEBUG:   [Backend]:          Running Wine command: reg add HKEY_CURRENT_USER\Software\Wine\DllOverrides /v d3d12core /d native,builtin /f
+(20:45:56) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:45:56) INFO:    [Gog]:              Launching The Witcher 3: Wild Hunt: HEROIC_APP_NAME=1207664643 HEROIC_APP_RUNNER=gog HEROIC_APP_SOURCE=gog LD_PRELOAD= DOTNET_BUNDLE_EXTRACT_BASE_DIR= WINEPREFIX=/home/khing/Games/Heroic/Prefixes/default WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEESYNC=1 WINEFSYNC=1 ORIG_LD_LIBRARY_PATH= /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json launch "/home/khing/Games/Heroic/The Witcher 3 Wild Hunt" 1207664643 --wine /usr/bin/wine --platform windows
+(20:46:16) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(20:46:16) INFO:    [Frontend]:         Refreshing gog Library
+(20:46:16) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(20:46:16) INFO:    [Gog]:              Getting GOG library
+(20:46:16) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(20:46:18) INFO:    [Gog]:              Saved games data
+(20:48:39) INFO:    [Backend]:          Launching The Witcher 3: Wild Hunt (1207664643)
+(20:48:39) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:48:39) INFO:    [Backend]:          Stopping Power Saver Blocker
+(20:48:39) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:48:39) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:48:39) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:48:39) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:48:39) DEBUG:   [Backend]:          Running Wine command: wineboot --init
+(20:48:43) INFO:    [DXVKInstaller]:    installing dxvk on... /home/khing/Games/Heroic/Prefixes/default
+(20:48:43) INFO:    [DXVKInstaller]:    dxvk already installed!
+(20:48:43) INFO:    [DXVKInstaller]:    installing vkd3d on... /home/khing/Games/Heroic/Prefixes/default
+(20:48:43) INFO:    [DXVKInstaller]:    vkd3d already installed!
+(20:48:43) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:48:43) INFO:    [Gog]:              Launching The Witcher 3: Wild Hunt: HEROIC_APP_NAME=1207664643 HEROIC_APP_RUNNER=gog HEROIC_APP_SOURCE=gog LD_PRELOAD= DOTNET_BUNDLE_EXTRACT_BASE_DIR= WINEPREFIX=/home/khing/Games/Heroic/Prefixes/default WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEESYNC=1 WINEFSYNC=1 ORIG_LD_LIBRARY_PATH= /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json launch "/home/khing/Games/Heroic/The Witcher 3 Wild Hunt" 1207664643 --wine /usr/bin/wine --platform windows
+(20:49:01) INFO:    [Backend]:          Checking if wine version exists: Wine Default - wine-8.18
+(20:49:01) ERROR:   [Backend]:          Couldn't find all library folders of Wine Default - wine-8.18!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(20:49:01) DEBUG:   [Backend]:          Running Wine command: cmd /c winepath -u %USERPROFILE%\Documents\\The Witcher 3
+(20:49:02) INFO:    [Backend]:          1207664643: Setting gogSaves to [{"name":"saves","location":"/home/khing/Games/Heroic/Prefixes/default/dosdevices/c:/users/khing/Documents/The Witcher 3"}]
+(20:49:05) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(20:49:05) INFO:    [Frontend]:         Refreshing gog Library
+(20:49:05) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(20:49:05) INFO:    [Gog]:              Getting GOG library
+(20:49:05) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/khing/.config/heroic/gog_store/auth.json auth
+(20:49:06) INFO:    [Gog]:              Saved games data

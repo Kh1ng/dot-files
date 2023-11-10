@@ -1,0 +1,53 @@
+{
+	"isLoggedIn": true,
+	"userData": {
+		"country": "US",
+		"currencies": [
+			{
+				"code": "USD",
+				"symbol": "$"
+			}
+		],
+		"selectedCurrency": {
+			"code": "USD",
+			"symbol": "$"
+		},
+		"preferredLanguage": {
+			"code": "en",
+			"name": "English"
+		},
+		"ratingBrand": "ESRB",
+		"isLoggedIn": true,
+		"checksum": {
+			"cart": null,
+			"games": "4996cf479106ccd521f7e60d0fd93a49",
+			"wishlist": "6e389aa162e63fe68d099ce1d830377c",
+			"reviews_votes": null,
+			"games_rating": null
+		},
+		"updates": {
+			"messages": 0,
+			"pendingFriendRequests": 0,
+			"unreadChatMessages": 0,
+			"products": 12,
+			"forum": 0,
+			"total": 12
+		},
+		"userId": "47948164536792",
+		"username": "hungrydude",
+		"galaxyUserId": "47948163839317971",
+		"avatar": "https://images.gog.com/9daa6d68f78f5480145e856dfb77fb12a0c41b6de147e8b63aac5f26adc76911",
+		"walletBalance": {
+			"currency": "USD",
+			"amount": 0
+		},
+		"purchasedItems": {
+			"games": 16,
+			"movies": 2
+		},
+		"wishlistedItems": 4,
+		"friends": [],
+		"personalizedProductPrices": [],
+		"personalizedSeriesPrices": []
+	}
+}

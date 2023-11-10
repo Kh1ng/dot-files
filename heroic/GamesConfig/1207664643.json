@@ -1,0 +1,31 @@
+{
+  "1207664643": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "language": "",
+    "wineVersion": {
+      "bin": "/usr/bin/wine",
+      "name": "Wine Default - wine-8.18",
+      "type": "wine",
+      "wineserver": "/usr/bin/wineserver"
+    },
+    "winePrefix": "/home/khing/Games/Heroic/Prefixes/default",
+    "wineCrossoverBottle": "Heroic",
+    "gogSaves": [
+      {
+        "name": "saves",
+        "location": "/home/khing/Games/Heroic/Prefixes/default/dosdevices/c:/users/khing/Documents/The Witcher 3"
+      }
+    ]
+  },
+  "version": "v0",
+  "explicit": true
+}

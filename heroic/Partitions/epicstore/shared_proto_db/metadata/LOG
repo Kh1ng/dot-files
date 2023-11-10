@@ -1,0 +1,2 @@
+2023/10/22-20:50:06.875 d7c7 Creating DB /home/khing/.config/heroic/Partitions/epicstore/shared_proto_db/metadata since it was missing.
+2023/10/22-20:50:06.881 d7c7 Reusing MANIFEST /home/khing/.config/heroic/Partitions/epicstore/shared_proto_db/metadata/MANIFEST-000001

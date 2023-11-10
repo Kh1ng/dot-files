@@ -1,0 +1,20 @@
+[FileDialogSize]
+2 screens: Height=781
+2 screens: Width=1738
+
+[KFileDialog Settings]
+Recent Files[$e]=0SQZSOj.jpeg,file:$HOME/Pictures/wallpapers/0007.jpg,file:$HOME/Pictures/wallpapers/6S4OtIN.jpeg,file:$HOME/Pictures/wallpapers/6ehv767.jpeg,file:$HOME/Pictures/wallpapers/6eaZOze.jpeg,file:$HOME/Pictures/wallpapers/0006.jpg,file:$HOME/Pictures/wallpapers/5PaLXkG.jpeg,file:$HOME/Pictures/wallpapers/0005.jpg,file:$HOME/Pictures/wallpapers/4nZt623.jpeg,file:$HOME/Pictures/wallpapers/0004.jpg,file:$HOME/Pictures/wallpapers/3NOEKEv.jpeg,file:$HOME/Pictures/wallpapers/0003.jpg,file:$HOME/Pictures/wallpapers/2F4iNVK.png,file:$HOME/Pictures/wallpapers/0002.jpg,file:$HOME/Pictures/wallpapers/0001.jpg,file:$HOME/Pictures/wallpapers/0SQZSOj.jpeg
+Recent URLs[$e]=file:$HOME/Pictures/wallpapers/
+iconViewIconSize=64
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
+[PlasmaViews][Panel 2]
+panelOpacity=2
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js

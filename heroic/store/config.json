@@ -1,0 +1,64 @@
+{
+	"general-logs": {
+		"currentLogFile": "/home/khing/.config/heroic/logs/heroic-2023-10-22T13_09_02.767Z.log",
+		"lastLogFile": "",
+		"legendaryLogFile": "/home/khing/.config/heroic/logs/legendary-2023-10-22T13_09_02.767Z.log",
+		"gogdlLogFile": "/home/khing/.config/heroic/logs/gogdl-2023-10-22T13_09_02.767Z.log",
+		"nileLogFile": "/home/khing/.config/heroic/logs/nile-2023-10-22T13_09_02.767Z.log"
+	},
+	"settings": {
+		"checkUpdatesInterval": 10,
+		"enableUpdates": false,
+		"addDesktopShortcuts": false,
+		"addStartMenuShortcuts": false,
+		"autoInstallDxvk": true,
+		"autoInstallVkd3d": true,
+		"autoInstallDxvkNvapi": false,
+		"addSteamShortcuts": false,
+		"preferSystemLibs": false,
+		"checkForUpdatesOnStartup": true,
+		"autoUpdateGames": false,
+		"customWinePaths": [],
+		"defaultInstallPath": "/home/khing/Games/Heroic",
+		"libraryTopSection": "disabled",
+		"defaultSteamPath": "/home/khing/.steam/steam",
+		"defaultWinePrefix": "/home/khing/Games/Heroic/Prefixes/default",
+		"hideChangelogsOnStartup": false,
+		"language": "en",
+		"maxWorkers": 0,
+		"minimizeOnLaunch": false,
+		"nvidiaPrime": false,
+		"enviromentOptions": [],
+		"wrapperOptions": [],
+		"showFps": false,
+		"useGameMode": false,
+		"userInfo": {
+			"name": "khing"
+		},
+		"wineCrossoverBottle": "Heroic",
+		"winePrefix": "/home/khing/Games/Heroic/Prefixes/default",
+		"wineVersion": {
+			"bin": "/usr/bin/wine",
+			"name": "Wine Default - wine-8.18",
+			"type": "wine",
+			"wineserver": "/usr/bin/wineserver"
+		},
+		"enableEsync": true,
+		"enableFsync": true
+	},
+	"userHome": "/home/khing",
+	"language": "en",
+	"userInfo": {
+		"account_id": "4bdf6907653c43f7bc99bf3c5617e488",
+		"displayName": "kh1ngg",
+		"user": "khing"
+	},
+	"games": {
+		"recent": [
+			{
+				"appName": "1207664643",
+				"title": "The Witcher 3: Wild Hunt"
+			}
+		]
+	}
+}

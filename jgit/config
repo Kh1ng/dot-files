@@ -1,0 +1,6 @@
+[filesystem "Oracle Corporation|21|/dev/nvme0n1p1"]
+	timestampResolution = 2850 nanoseconds
+	minRacyThreshold = 1695 microseconds
+[filesystem "JetBrains s.r.o.|17.0.8|/dev/nvme0n1p1"]
+	timestampResolution = 41851 nanoseconds
+	minRacyThreshold = 1208 microseconds

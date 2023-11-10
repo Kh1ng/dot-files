@@ -1,0 +1,38 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+2 screens: XPosition=1471
+2 screens: YPosition=521
+DP-2 HDMI-0=HDMI-0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Dropbox/IMG_3345.jpg
+File10[$e]=mtp:/Colton's S21+/Internal storage/ReadEra/Covers/02/021f77bab61952096ad75d4b35d7a535a0f8d869-ReadEra.jpg
+File2[$e]=$HOME/Dropbox/IMG_3984.jpg
+File3[$e]=$HOME/Dropbox/IMG_8206.jpg
+File4[$e]=$HOME/Dropbox/IMG_6637.jpg
+File5[$e]=$HOME/Dropbox/Image-1.jpg
+File6[$e]=$HOME/Dropbox/image.jpg
+File7[$e]=$HOME/Dropbox/image.png
+File8[$e]=$HOME/Dropbox/New.jpg
+File9[$e]=$HOME/Dropbox/7037378_orig.jpg
+Name1[$e]=IMG_3345.jpg
+Name10[$e]=021f77bab61952096ad75d4b35d7a535a0f8d869-ReadEra.jpg
+Name2[$e]=IMG_3984.jpg
+Name3[$e]=IMG_8206.jpg
+Name4[$e]=IMG_6637.jpg
+Name5[$e]=Image-1.jpg
+Name6[$e]=image.jpg
+Name7[$e]=image.png
+Name8[$e]=New.jpg
+Name9[$e]=7037378_orig.jpg
+
+[SideBar]
+InformationSplitterSizes=223,234

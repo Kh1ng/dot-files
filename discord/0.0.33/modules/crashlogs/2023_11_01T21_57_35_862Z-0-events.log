@@ -1,0 +1,30 @@
+2023-11-01T21:57:35.867Z 0: 
+
+----------------------------------------------
+2023-11-01T21:57:35.882Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.33"}, modulepath: /home/khing/.config/discord/0.0.33/modules
+2023-11-01T21:57:35.888Z 2: ✅ webContents.created web1 ""
+2023-11-01T21:57:35.895Z 3: ✅ window.created win1 "discord"
+2023-11-01T21:57:36.253Z 4: ✅ webContents.did-finish-load web1
+2023-11-01T21:57:38.804Z 5: ✅ webContents.created web2 ""
+2023-11-01T21:57:38.809Z 6: ✅ window.created win2 "Discord"
+2023-11-01T21:57:41.781Z 7: ✅ webContents.did-finish-load web2
+2023-11-01T21:57:41.881Z 8: window.close win1
+2023-11-01T21:57:41.987Z 9: webContents.destroyed web1
+2023-11-01T21:57:41.988Z 10: window.closed win1
+2023-11-02T03:09:35.439Z 11: window.close win2
+2023-11-02T03:09:37.943Z 12: before-quit
+2023-11-02T03:09:37.953Z 13: window.close win2
+2023-11-02T03:09:37.967Z 14: webContents.destroyed web2
+2023-11-02T03:09:39.616Z 0: 
+
+----------------------------------------------
+2023-11-02T03:09:39.634Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.33"}, modulepath: /home/khing/.config/discord/0.0.33/modules
+2023-11-02T03:09:39.638Z 2: ✅ webContents.created web1 ""
+2023-11-02T03:09:39.641Z 3: ✅ window.created win1 "discord"
+2023-11-02T03:09:40.028Z 4: ✅ webContents.did-finish-load web1
+2023-11-02T03:09:40.113Z 5: ✅ webContents.created web2 ""
+2023-11-02T03:09:40.116Z 6: ✅ window.created win2 "Discord"
+2023-11-02T03:09:42.837Z 7: ✅ webContents.did-finish-load web2
+2023-11-02T03:09:42.938Z 8: window.close win1
+2023-11-02T03:09:43.202Z 9: webContents.destroyed web1
+2023-11-02T03:09:43.205Z 10: window.closed win1

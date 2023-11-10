@@ -1,0 +1,18 @@
+[MainWindow]
+2 screens: XPosition=1210
+2 screens: YPosition=381
+3 screens: Height=700
+3 screens: Width=1020
+3 screens: XPosition=5050
+3 screens: YPosition=381
+DP-1 HDMI-1 HDMI-2=HDMI-2
+DP-1 HDMI-2=HDMI-2
+DP-2 HDMI-0=HDMI-0
+DP-2 HDMI-0 HDMI-1=HDMI-0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=yak,pamac-tray

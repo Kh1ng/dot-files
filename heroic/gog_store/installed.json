@@ -1,0 +1,17 @@
+{
+	"installed": [
+		{
+			"platform": "windows",
+			"executable": "",
+			"install_path": "/home/khing/Games/Heroic/The Witcher 3 Wild Hunt",
+			"install_size": "39.35 GiB",
+			"is_dlc": false,
+			"version": "4.04a",
+			"appName": "1207664643",
+			"installedWithDLCs": false,
+			"language": "en-US",
+			"versionEtag": "\"1784785045\"",
+			"buildId": "56623370530654929"
+		}
+	]
+}

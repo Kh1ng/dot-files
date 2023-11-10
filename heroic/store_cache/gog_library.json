@@ -1,0 +1,477 @@
+{
+	"games": [
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/worlds_of_ultima_the_savage_empire",
+			"developer": "Origin Systems",
+			"app_name": "1207659061",
+			"art_cover": "https://images.gog.com/51c5e2ec331b194f0dd96d86fc7d74cfaabca7653290da0478c3419dc1e243b6.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/f99329cadba31dd8ae94558a03cb8bf23aec33ec1f6aa8f01c7b0abce8a70daf.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Savage Empire is Origin's first \"Worlds of Ultima\" release. It was made using basically the same engine as Ultima VI but with slightly different graphics. The game contains all of the elements of the other Ultimas, as well as some extra features that add to the experience. You are able to interact with the environment in a realistic manner... picking branches from trees, digging clay from a riverbank etc. Savage Empire also has a lot more character interaction than the previous Ultimas. Characters will jump into conversations whenever they feel they have something pertinent to add.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/worlds_of_ultima_the_savage_empire"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "worlds_of_ultima_the_savage_empire",
+			"save_folder": "",
+			"title": "Worlds of Ultima™ : The Savage Empire",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/bio_menace",
+			"developer": "Apogee Software",
+			"app_name": "1449569170",
+			"art_cover": "https://images.gog.com/62260f6bc0f9921d44a9acbbb18999ecf0677b17d8b6414aa330936e26668882.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/88d23f65d34a89831ea7f66212b7cf127a4eb335faff084d908e423f181d038a.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Intelligence reports indicate that a man calling himself Dr. Mangle is responsible for the mutants and the destruction of Metro. You will have to battle your way through levels packed with evil mutants and robotic guards to finally infiltrate Mangle's fortress and defeat him. You think to yourself that this will be the most dangerous mission of your life.\n\nSnake Logan is a weapons expert, and uses several throughout the game, including a high-powered machine gun and grenades.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/bio_menace"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "bio_menace",
+			"save_folder": "",
+			"title": "Bio Menace",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/treasure_adventure_game",
+			"developer": "Robit Games",
+			"app_name": "1207659013",
+			"art_cover": "https://images.gog.com/24871d1c2910cfe3fc0d6ee7babaa768fa21d6776554c7f8cf4b2face75112da.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/caa70c9dd1f905312a5c1583dec1fa6c082ab20f231675ea76259f58bce166d0.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Treasure Adventure Game is a freeware open-world, platform adventure game developed by Stephen Orlando. It includes a 1 hour original sound-track composed by Robert Ellis",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/treasure_adventure_game"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "treasure_adventure_game",
+			"save_folder": "",
+			"title": "Treasure Adventure Game",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/ultima_worlds_of_adventure_2_martian_dreams",
+			"developer": "Origin Systems",
+			"app_name": "1207659062",
+			"art_cover": "https://images.gog.com/9b7a18c0e225e5abb5c00ec0e919838c39acde4e076f2ba7e9e0e55f3d93a257.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/fb3f7e0407d1f029d01e4e64dc3daf329f970e0034b5dce4c1611b07a3d851d3.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "I write these words aboard a colossal bullet rocketing from the Earth to Mars. Wondrous as this is (and it is, I assure you, quite wondrous), I am even more amazed by the fact that it is the year 1895! Tesla - yes, the noted scientist of years past, Nikola Tesla! -- is unsure how long the voyage will take so I have decided to pass the time recording what mankind (circa 1895) knows of our destination - Mars. How I came by this information is a story in itself.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/ultima_worlds_of_adventure_2_martian_dreams"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "ultima_worlds_of_adventure_2_martian_dreams",
+			"save_folder": "",
+			"title": "Ultima™  Worlds of Adventure 2: Martian Dreams",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/tyrian_2000",
+			"developer": "Eclipse Software",
+			"app_name": "1207658901",
+			"art_cover": "https://images.gog.com/b6973026fb66e94db4099841b8e70b42edcd7201c1225219f55e9f832163a38f.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/e3154e891fbc1fa3476997633ba39946100f2f89d57a21ff72cdab0395214385.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Tyrian 2000 is an improved remake of the original Tyrian. Tyrian is an action killing, smashing, shoot'em'all arcade game. Your goal is to kill as many enemies as possible and finish the level, buy more weapons and then kill many more enemies. Your battle ship can be improved over time and you can buy new weapons currently available. Your ship supports front guns, rear guns and side slots for the most deadly weapons.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/tyrian_2000"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "tyrian_2000",
+			"save_folder": "",
+			"title": "Tyrian 2000",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/ultima_4",
+			"developer": "Origin Systems",
+			"app_name": "1207658962",
+			"art_cover": "https://images.gog.com/f34add0a2b854e4d511f8f88ee191442eb908f309769d065e732ff22f3aa7df3.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/82003a7f51611404fa0059f4279eabe6125c75b564139765431ad4bdec8db9af.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "As an addendum to this work, I, Lord British, would like to speak of the Quest of the Avatar mentioned in these pages. The Quest of the Avatar is the search for a new standard, a new vision of life for which out people may strive. We seek the person who can become a shining example of our nation and guides us from the Age of Darkness into the Age of Light. We have sent this message our to the farthest reaches of the known universe, indeed, we have even spoken across the void of time. Is there One who can complete the Quest of the Avatar? Many have tried already, and have met with partial success, becoming enlightened in one or more of the Eight Virtues of the Avatar - but none have yet attained the true state of being an Avatar. \r\n\r\nThe secrets of the Avatar are buried deep in the hearts of both our people and the land in which we dwell. The search will be arduous and the One who shall succeed must be able to assemble all the parts of the great mystery in order to solve the Quest. Gaze upon the device portrayed on the facing page of this tome. Learn it well, for when thou dost gaze upon it again then shall thy life's quest be revealed.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/ultima_4"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "ultima_4",
+			"save_folder": "",
+			"title": "Ultima™ 4: Quest of the Avatar",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/warsow",
+			"developer": "Chasseur De Bots",
+			"app_name": "1207659121",
+			"art_cover": "https://images.gog.com/f99d5ffbf43977c8250dbded8ebaf58238339530d0369dc6bdc1863906a189ab.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/47d956374f39780e688e5e2955007813608635b44a5de86e9f6a0af1f0cc5c46.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Warsow is set in a futuristic cartoonish world where rocketlauncher-wielding pigs and lasergun-carrying cyberpunks roam the streets. It is a completely free, fast-paced first-person shooter without hard graphical violence. Red stars instead of blood indicate hits and colored cubes replace guts as gib effects.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/warsow"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "warsow",
+			"save_folder": "",
+			"title": "Warsow",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/jill_of_the_jungle_the_complete_trilogy",
+			"developer": "Epic Games",
+			"app_name": "1129701343",
+			"art_cover": "https://images.gog.com/1289d51a58698ad87e23399bce20cc7d150354d3f7e160aa46fcf6b9abd50e7c.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/6dad9977ab4f4a8fac740de45ab73e4c8610bc3493933da37e6abb0523e9d21e.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Jill of the Jungle: The Complete Trilogy combined all 3 of Epic Megagames' action platformers into a single package!\n\nShe's beautiful. She's brave. She knows her way around a jungle. She is fighting the most difficult battle of her life.\n\nFortunately, Jill is a tough lady. She can run, jump, and skillfully use her knife and spinning blade. Want to really trick Jill’s opponents? Find the magical icons, and Jill will transform into a flaming bird, a leaping frog, or even better, a fish who can shoot bullets! Even though Jill is prepared for the dangers of the jungle, helping her complete her mission will not be easy. Do you have the courage to help her?",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/jill_of_the_jungle_the_complete_trilogy"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "jill_of_the_jungle_the_complete_trilogy",
+			"save_folder": "",
+			"title": "Jill of the Jungle: The Complete Trilogy",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/eschalon_book_i",
+			"developer": "Basilisk Games",
+			"app_name": "1207659221",
+			"art_cover": "https://images.gog.com/c26467f232228012d2674cf886544279f44ce59ee83c9c976516b7e0a9125948.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/855723aa2e49504b7883c0c3384cf0cbb4575b29d8e8c787d6474876f19327b8.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Classic turn-based role-playing game, played with one customizable character. The player travels between towns, does quests and explores dungeons.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/eschalon_book_i"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "eschalon_book_i",
+			"save_folder": "",
+			"title": "Eschalon: Book I",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/beneath_a_steel_sky",
+			"developer": "Revolution Software",
+			"app_name": "1207658695",
+			"art_cover": "https://images.gog.com/43d3c234e630c5c07984a98d8935e0606ed19e41477fb8d0d02f7930efa48b7a.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/cfa2550bbfd27506a0b5099423aab3cc0cbfb1ae2edcef4d32a6faa38e7721a6.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Beneath a Steel Sky is a cyberpunk, point and click, adventure game. You assume the role of Robert Foster and embark on a quest to make the world a better place, along with your robot companion Joey.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/beneath_a_steel_sky"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "beneath_a_steel_sky",
+			"save_folder": "",
+			"title": "Beneath a Steel Sky",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game",
+			"developer": "CD Projekt RED",
+			"app_name": "1207664643",
+			"art_cover": "https://images.gog.com/927af0c4e538f35d9cefbacec1d5d04113567eacd758ceb6f2b68de045421e9e.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/86856f62b3e633f639fed3dd5add84859d6447e0862138dbadf7fcae3272f67b.jpg?namespace=gamesdb",
+			"cloud_save_enabled": true,
+			"extra": {
+				"about": {
+					"description": "RPG and sequel to The Witcher 2 (2011), The Witcher 3 follows witcher Geralt of Rivia as he seeks out his former lover and his young subject while intermingling with the political workings of the wartorn Northern Kingdoms. Geralt has to fight monsters and deal with people of all sorts in order to solve complex problems and settle contentious disputes, each ranging from the personal to the world-changing.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game"
+			},
+			"folder_name": "The Witcher 3 Wild Hunt",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "the_witcher_3_wild_hunt_game",
+			"save_folder": "",
+			"title": "The Witcher 3: Wild Hunt",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false,
+			"gog_save_location": [
+				{
+					"name": "saves",
+					"location": "<?DOCUMENTS?>\\\\The Witcher 3"
+				}
+			]
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/lure_of_the_temptress",
+			"developer": "Revolution Software",
+			"app_name": "1207658694",
+			"art_cover": "https://images.gog.com/c6f3c72d55b319ee1343ff6f1a2df49fc7897909e22253904f3bc06bcdd7a65d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/43fe4a10fc911d5be00844f91bab3ffa98fbebd58c205a9471b82c87eb8a679e.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Lure of the Temptress is an Adventure game, developed by Revolution Software and published by Konami, which was released in 1992.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/lure_of_the_temptress"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "lure_of_the_temptress",
+			"save_folder": "",
+			"title": "Lure of the Temptress",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/stargunner",
+			"developer": "Apogee Software",
+			"app_name": "1207659693",
+			"art_cover": "https://images.gog.com/73f9a585632d6f6c7085e5d8031601c3cfdb7b8a38e042d10fc7b085557e477a.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/56ede3f410bcc7371b6607a78dcd6bb53b8f14b331e6ba6c0411bb451ba4ebee.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "In the far distant future, an epic war for survival takes place...\n\nDeep within the Andromeda galaxy, the people of Zile grow restless and greedy. The Zilions secretly prepare for a massive strike against the nearby planet Ytima. Fearing such an attack, the Ytimians train an elite squad of \"Stargunners.\" Their mission: To strike the planet Zile and cripple the Zilions’ three strongholds, where the Zilion war fleets await. If the Stargunners can surprise the Zilions on their own planet and wipe out their fleet, then good will triumph over evil once again.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/stargunner"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "stargunner",
+			"save_folder": "",
+			"title": "Stargunner",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/dragonsphere",
+			"developer": "MPS Labs",
+			"app_name": "1207658927",
+			"art_cover": "https://images.gog.com/f18f30c8e1df620f163f2b781e4e8b91a2dcbb2c177dc12557febc29aef47de8.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/3870137e89407386f33fd4c136cc3e4d09dc60c900704220f40fb72baa01b577.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Newly-crowned King of Callahach! It's been twenty years since your father saved the world by entrapping the evil Sorcerer Sanwe. Now the spell is waning. Sanwe's malevolent force will soon consume the land, and only you can stop him!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/dragonsphere"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "dragonsphere",
+			"save_folder": "",
+			"title": "Dragonsphere",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/teenagent",
+			"developer": "Metropolis Software",
+			"app_name": "1207658753",
+			"art_cover": "https://images.gog.com/806450401419cca6e439471e8d40cfa133ea4fa6b6a67dc82257afd0028fd8a7.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/b8ad05356f20eaa1917ffc1ed762cd9b0a74f0093ef010edd2cfc0f0fade1089.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "The CD version was the first game to be released on CD-ROM in Poland.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/teenagent"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "teenagent",
+			"save_folder": "",
+			"title": "Teenagent",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"store_url": "https://www.gog.com/en/game/shadow_warrior_complete",
+			"developer": "",
+			"app_name": "1207659142",
+			"art_cover": "https://images.gog.com/e5ca7b44b13150f2eb8e9195eea68a3fc9d6a83c9640c8d2b2751cd5c793f98f.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/e9b244a0cefd6b624fc6083206ea3e1b60234efdd76f6aead0dd10f880c14256.jpg?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"extra": {
+				"about": {
+					"description": "Lo Wang. The very name strikes fear in fortune cookie-eating Mafia men and small children everywhere. He is the reason most ninja wannabees have sold off their combat sandals to the local pawn shop. Lo Wang is Shadow Warrior. #1 Assassin. #1 Yakuza abuser. #1 Freak fragger. #1 Mutant mutilator. #1 Reason to be scared of the dark. Enter the Land of the Rising Sun and spread ninja charisma like napalm for there are undead sumos to be uzied, samurai to be shurikened, and bulldozers to be boarded. Don’t forget to goose the geishas and make sure your dinghy isn’t hanging out...",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"storeUrl": "https://www.gog.com/en/game/shadow_warrior_complete"
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"installable": true,
+			"is_installed": false,
+			"namespace": "shadow_warrior_complete",
+			"save_folder": "",
+			"title": "Shadow Warrior Classic Complete",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": true
+		}
+	],
+	"__timestamp": {
+		"games": "Sun Oct 22 2023 20:49:06 GMT-0500 (Central Daylight Time)"
+	}
+}

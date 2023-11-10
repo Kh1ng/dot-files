@@ -1,0 +1,51 @@
+{
+	"finished": [
+		{
+			"params": {
+				"appName": "1207664643",
+				"path": "/home/khing/Games/Heroic",
+				"installDlcs": false,
+				"sdlList": [],
+				"installLanguage": "en-US",
+				"runner": "gog",
+				"platformToInstall": "Windows",
+				"gameInfo": {
+					"runner": "gog",
+					"store_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game",
+					"developer": "CD Projekt RED",
+					"app_name": "1207664643",
+					"art_cover": "https://images.gog.com/927af0c4e538f35d9cefbacec1d5d04113567eacd758ceb6f2b68de045421e9e.jpg?namespace=gamesdb",
+					"art_square": "https://images.gog.com/86856f62b3e633f639fed3dd5add84859d6447e0862138dbadf7fcae3272f67b.jpg?namespace=gamesdb",
+					"cloud_save_enabled": false,
+					"extra": {
+						"about": {
+							"description": "RPG and sequel to The Witcher 2 (2011), The Witcher 3 follows witcher Geralt of Rivia as he seeks out his former lover and his young subject while intermingling with the political workings of the wartorn Northern Kingdoms. Geralt has to fight monsters and deal with people of all sorts in order to solve complex problems and settle contentious disputes, each ranging from the personal to the world-changing.",
+							"shortDescription": ""
+						},
+						"reqs": [],
+						"storeUrl": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game"
+					},
+					"folder_name": "",
+					"install": {
+						"is_dlc": false
+					},
+					"installable": true,
+					"is_installed": false,
+					"namespace": "the_witcher_3_wild_hunt_game",
+					"save_folder": "",
+					"title": "The Witcher 3: Wild Hunt",
+					"canRunOffline": true,
+					"is_mac_native": false,
+					"is_linux_native": false
+				},
+				"size": "37.32 GiB"
+			},
+			"type": "install",
+			"addToQueueTime": 1697980285418,
+			"endTime": 1697981203959,
+			"startTime": 1697980285421,
+			"status": "done"
+		}
+	],
+	"queue": []
+}

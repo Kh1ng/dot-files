@@ -1,0 +1,32 @@
+{
+	"1207664643_windows": {
+		"game": {
+			"app_name": "1207664643",
+			"title": "The Witcher 3: Wild Hunt",
+			"owned_dlc": [],
+			"version": "4.04a",
+			"launch_options": [],
+			"buildId": "56623370530654929"
+		},
+		"manifest": {
+			"disk_size": 42249147192,
+			"download_size": 40067190500,
+			"app_name": "1207664643",
+			"languages": [
+				"fr-FR",
+				"ko-KR",
+				"ru-RU",
+				"de-DE",
+				"pl-PL",
+				"en-US",
+				"pt-BR",
+				"zh-Hans",
+				"ja-JP"
+			],
+			"versionEtag": "\"1784785045\""
+		}
+	},
+	"__timestamp": {
+		"1207664643_windows": "Sun Oct 22 2023 08:11:12 GMT-0500 (Central Daylight Time)"
+	}
+}

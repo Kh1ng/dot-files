@@ -1,0 +1,356 @@
+System Info:
+CPU: 24x AMD Ryzen 9 5900X 12-Core Processor
+Memory: 33.56 GB (used: 10.72 GB)
+GPUs:
+  GPU 0:
+    Name: NVIDIA Corporation TU104 [GeForce RTX 2080 Rev. A]
+    IDs: D=1e87 V=10de SD=865f SV=1043
+    Driver: nvidia
+OS: XeroLinux 6.5.8-zen1-1-zen (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.9.2 Boa Hancock
+  Legendary: 0.20.32 Dark Energy (hotfix #6)
+  gogdl: 0.7.3
+  Nile: 1.0.0 Jonathan Joestar
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"useGameMode": false,
+	"language": "",
+	"wineVersion": {
+		"bin": "/usr/bin/wine",
+		"name": "Wine Default - wine-8.18",
+		"type": "wine",
+		"wineserver": "/usr/bin/wineserver"
+	},
+	"winePrefix": "/home/khing/Games/Heroic/Prefixes/default",
+	"wineCrossoverBottle": "Heroic"
+}
+
+Game launched at: Sun Oct 22 2023 20:48:39 GMT-0500 (Central Daylight Time)
+
+Launch Command: HEROIC_APP_NAME=1207664643 HEROIC_APP_RUNNER=gog HEROIC_APP_SOURCE=gog LD_PRELOAD= DOTNET_BUNDLE_EXTRACT_BASE_DIR= WINEPREFIX=/home/khing/Games/Heroic/Prefixes/default WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEESYNC=1 WINEFSYNC=1 ORIG_LD_LIBRARY_PATH= /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl launch "/home/khing/Games/Heroic/The Witcher 3 Wild Hunt" 1207664643 --wine /usr/bin/wine --platform windows
+
+Game Log:
+002c:err:wineboot:process_run_key Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (126).
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+007c:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+007c:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+007c:fixme:xinput:pdo_pnp IRP_MN_QUERY_ID type 5, not implemented!
+00e0:err:winediag:is_broken_driver Broken NVIDIA RandR detected, falling back to RandR 1.0. Please consider using the Nouveau driver instead.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00e0:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:err:winediag:is_broken_driver Broken NVIDIA RandR detected, falling back to RandR 1.0. Please consider using the Nouveau driver instead.
+00d8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+info:  Game: witcher3.exe
+info:  DXVK: v2.3
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffa1f3f40
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  NVIDIA GeForce RTX 2080:
+info:    Driver : NVIDIA 535.113.1
+info:    Memory Heap[0]: 
+info:      Size: 8192 MiB
+info:      Flags: 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:    Memory Heap[1]: 
+info:      Size: 24002 MiB
+info:      Flags: 0x0
+info:      Memory Type[0]: Property Flags = 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[2]: 
+info:      Size: 246 MiB
+info:      Flags: 0x1
+info:      Memory Type[4]: Property Flags = 0x7
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ee4b8, paths 0x7ffffeb0d1a0, modes_count 0x7f6c157ee4bc, modes 0x7ffffe79fe70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ee4b8, paths 0x7ffffeb0d1a0, modes_count 0x7f6c157ee4bc, modes 0x7ffffe79fe70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ee4b8, paths 0x7ffffeb0d1a0, modes_count 0x7f6c157ee4bc, modes 0x7ffffe79fe70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:cryptasn:CryptDecodeObjectEx Unsupported decoder for lpszStructType 1.3.6.1.4.1.311.2.1.4
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+00d8:fixme:crypt:ProvStore_release Unimplemented flags 1
+00d8:fixme:crypt:MemStore_release Unimplemented flags 1
+info:  NVIDIA GeForce RTX 2080:
+info:    Driver : NVIDIA 535.113.1
+info:    Memory Heap[0]: 
+info:      Size: 8192 MiB
+info:      Flags: 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:    Memory Heap[1]: 
+info:      Size: 24002 MiB
+info:      Flags: 0x0
+info:      Memory Type[0]: Property Flags = 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[2]: 
+info:      Size: 246 MiB
+info:      Flags: 0x1
+info:      Memory Type[4]: Property Flags = 0x7
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef318, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef31c, modes 0x7ffffe790c70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef318, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef31c, modes 0x7ffffe790c70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef318, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef31c, modes 0x7ffffe790c70, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "witcher3.exe" (hash: d2aaa55da1e44ae0)
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Detected game witcher3.exe, adding config 0x2000000000, removing masks 0x0.
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 2.10.0.
+101440.455:00d4:00d8:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: bb320cc31b9c5ff.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: Device heaps are split. Assuming small BAR situation. Using HOST_COHERENT only.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101441.069:00d4:00d8:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+101441.069:00d4:00d8:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 2944, may be inaccurate.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+101441.069:00d4:00d8:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+101441.094:00d4:011c:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+101441.094:00d4:011c:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+101441.094:00d4:011c:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.197 ms.
+101441.094:00d4:011c:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+101441.094:00d4:011c:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+0120:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00007FFFFF94FE10
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:win:DisableProcessWindowsGhosting : stub
+012c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00007F61D31EFE10
+info:  NVIDIA GeForce RTX 2080:
+info:    Driver : NVIDIA 535.113.1
+info:    Memory Heap[0]: 
+info:      Size: 8192 MiB
+info:      Flags: 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:    Memory Heap[1]: 
+info:      Size: 24002 MiB
+info:      Flags: 0x0
+info:      Memory Type[0]: Property Flags = 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[2]: 
+info:      Size: 246 MiB
+info:      Flags: 0x1
+info:      Memory Type[4]: Property Flags = 0x7
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeca8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eecac, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeca8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eecac, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeca8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eecac, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+101442.274:00d4:00d8:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 2.10.0.
+101442.274:00d4:00d8:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: bb320cc31b9c5ff.
+101442.674:00d4:00d8:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: Device heaps are split. Assuming small BAR situation. Using HOST_COHERENT only.
+101442.675:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics.
+101442.675:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
+101442.675:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101442.675:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101442.675:00d4:00d8:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+101442.676:00d4:00d8:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+101442.676:00d4:00d8:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 2944, may be inaccurate.
+101442.676:00d4:00d8:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+101442.676:00d4:00d8:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+101442.677:00d4:0150:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+101442.677:00d4:0150:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+101442.677:00d4:0150:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.166 ms.
+101442.677:00d4:0150:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+101442.677:00d4:0150:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+0174:fixme:wbemprox:client_security_SetBlanket 00006FFFF9080E80, 00007FFFFEA55C10, 10, 0, (null), 3, 3, 0000000000000000, 0
+0174:fixme:wbemprox:client_security_Release 00006FFFF9080E80
+0174:fixme:wbemprox:enum_class_object_Next timeout not supported
+01c0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00007F60A9F9FE10
+00d8:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+00d8:fixme:wbemprox:client_security_SetBlanket 00006FFFF9080E80, 00007FFFFEDB7500, 10, 0, (null), 3, 3, 0000000000000000, 0
+00d8:fixme:wbemprox:client_security_Release 00006FFFF9080E80
+info:  NVIDIA GeForce RTX 2080:
+info:    Driver : NVIDIA 535.113.1
+info:    Memory Heap[0]: 
+info:      Size: 8192 MiB
+info:      Flags: 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:    Memory Heap[1]: 
+info:      Size: 24002 MiB
+info:      Flags: 0x0
+info:      Memory Type[0]: Property Flags = 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[2]: 
+info:      Size: 246 MiB
+info:      Flags: 0x1
+info:      Memory Type[4]: Property Flags = 0x7
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeaf8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eeafc, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeaf8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eeafc, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157eeaf8, paths 0x7ffffe79ff60, modes_count 0x7f6c157eeafc, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+info:  DXGI: Hiding actual GPU, reporting vendor ID 0x1002, device ID 73df
+info:  NVIDIA GeForce RTX 2080:
+info:    Driver : NVIDIA 535.113.1
+info:    Memory Heap[0]: 
+info:      Size: 8192 MiB
+info:      Flags: 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:    Memory Heap[1]: 
+info:      Size: 24002 MiB
+info:      Flags: 0x0
+info:      Memory Type[0]: Property Flags = 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[2]: 
+info:      Size: 246 MiB
+info:      Flags: 0x1
+info:      Memory Type[4]: Property Flags = 0x7
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef618, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef61c, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef618, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef61c, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef618, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef61c, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef6c8, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef6cc, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ec2dc, paths 0x7ffffe792d40, modes_count 0x7f6c157ec340, modes 0x7ffffe792de0, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ef6c8, paths 0x7ffffe79ff60, modes_count 0x7f6c157ef6cc, modes 0x7ffffe792d40, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:system:NtUserQueryDisplayConfig flags 0x2, paths_count 0x7f6c157ec2dc, paths 0x7ffffe792d40, modes_count 0x7f6c157ec340, modes 0x7ffffe792de0, topology_id (nil) semi-stub
+00d8:fixme:xrandr:xrandr10_get_current_mode Non-primary adapters are unsupported.
+00d8:fixme:dbghelp:elf_search_auxv can't find symbol in module
+00d8:fixme:dbghelp:MiniDumpWriteDump NIY MiniDumpWithDataSegs
+Launch command: ['/usr/bin/wine', '/home/khing/Games/Heroic/The Witcher 3 Wild Hunt/bin/x64_dx12/witcher3.exe']
+All processes exited

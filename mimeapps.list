@@ -1,0 +1,9 @@
+
+[Default Applications]
+x-scheme-handler/ame=cider.desktop
+x-scheme-handler/cider=cider.desktop
+x-scheme-handler/itms=cider.desktop
+x-scheme-handler/itmss=cider.desktop
+x-scheme-handler/musics=cider.desktop
+x-scheme-handler/music=cider.desktop
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
