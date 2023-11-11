@@ -10,8 +10,8 @@ RememberWindowSize=false
 ShowMenuBarByDefault=false
 
 [MainWindow]
-2 screens: Height=1349
-2 screens: Width=1712
+2 screens: Height=1275
+2 screens: Width=1732
 2 screens: XPosition=4
 2 screens: YPosition=85
 3 screens: Height=427

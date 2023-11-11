@@ -13,7 +13,7 @@
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
     "SettingsSearchHistory": "mark",
-    "appcds.runOnSecondStart": "CL-232.9921.42-2c302b058a676dcbcdbe00b4d25aeb2af4edafd429871e429d757a77943ba4ed",
+    "appcds.runOnSecondStart": "CL-232.9921.42-5c5e435a1002aa54ca9f8df110508a14dac2903d42ed5777c762bf4d7bff13b9",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
@@ -55,16 +55,16 @@
     ]
   }
 }]]></component>
-  <component name="ShownTips"><![CDATA[{
-  "shownTips": {
-    "CtrlW": 1696148583472,
-    "QuickFix": 1698363169193,
-    "FindInPath": 1696378787188
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;CtrlW&quot;: 1696148583472,
+    &quot;QuickFix&quot;: 1699633211182,
+    &quot;FindInPath&quot;: 1696378787188
   },
-  "proposedTips": {
-    "QuickFix": 1698363168228,
-    "FindInPath": 1696378786514
+  &quot;proposedTips&quot;: {
+    &quot;QuickFix&quot;: 1699633211069,
+    &quot;FindInPath&quot;: 1696378786514
   },
-  "tipsOrderSeed": 1696148580537
-}]]></component>
+  &quot;tipsOrderSeed&quot;: 1696148580537
+}</component>
 </application>

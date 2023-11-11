@@ -7,7 +7,7 @@
     <feature id="refactoring.changeSignature" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="switcher" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.replace" count="0" last-shown="1696472516211" last-used="0" shown-count="213" />
+    <feature id="editing.completion.replace" count="0" last-shown="1699635898527" last-used="0" shown-count="247" />
     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.introduceConstant" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -22,12 +22,12 @@
     <feature id="ui.open.last.tool.window" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.reformat.code" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.show.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.copy.line" count="3" last-shown="0" last-used="1696471435972" shown-count="0" />
+    <feature id="editing.copy.line" count="5" last-shown="0" last-used="1699634842308" shown-count="0" />
     <feature id="navigation.find.in.files" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineLocalVar" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="db.copy.table" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="ui.hide.tool.window" count="1" last-shown="0" last-used="1696461353587" shown-count="0" />
+    <feature id="ui.hide.tool.window" count="3" last-shown="0" last-used="1699634537555" shown-count="0" />
     <feature id="navigation.find.replace.in.files.toggle" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="intentions.check.regexp" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="profiler.open.snapshot" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -41,7 +41,7 @@
     <feature id="editing.copy.reference" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.find" count="4" last-shown="0" last-used="1696464004369" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="30" last-shown="0" last-used="1696471163081" shown-count="0" />
+    <feature id="editing.completion.basic" count="34" last-shown="0" last-used="1699635833209" shown-count="0" />
     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="dir.diff" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -124,11 +124,11 @@
     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="db.assign.color" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="145" />
-      <option name="invocations" value="27" />
+      <option name="sparedCharacters" value="167" />
+      <option name="invocations" value="30" />
       <option name="startDate" value="1696309200000" />
-      <option name="dayCount" value="2" />
-      <option name="lastDate" value="1696395600000" />
+      <option name="dayCount" value="3" />
+      <option name="lastDate" value="1699596000000" />
     </completionStatsTag>
     <fixesStatsTag>
       <option name="invocations" value="1" />

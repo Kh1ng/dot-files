@@ -1,2 +1,3 @@
-2023/09/30-19:30:40.867 7624 Creating DB /home/khing/.config/icloud-for-linux/Local Storage/leveldb since it was missing.
-2023/09/30-19:30:40.878 7624 Reusing MANIFEST /home/khing/.config/icloud-for-linux/Local Storage/leveldb/MANIFEST-000001
+2023/11/10-10:24:09.750 361b9 Reusing MANIFEST /home/khing/.config/icloud-for-linux/Local Storage/leveldb/MANIFEST-000001
+2023/11/10-10:24:09.750 361b9 Recovering log #3
+2023/11/10-10:24:09.751 361b9 Reusing old log /home/khing/.config/icloud-for-linux/Local Storage/leveldb/000003.log 

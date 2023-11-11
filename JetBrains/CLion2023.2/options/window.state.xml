@@ -1,6 +1,6 @@
 <application>
   <component name="WindowManager">
-    <frame x="0" y="0" width="3440" height="1440" extendedState="6" />
+    <frame x="1020" y="220" width="1400" height="1000" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="1503" y="346" width="458" height="488" key="FileChooserDialogImpl" timestamp="1698363185418">

@@ -1,13 +1,13 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$Copy">
-      <i c="12" l="1696468900454" />
+      <i c="14" l="1699634649798" />
     </e>
     <e n="$SelectAll">
       <i c="2" l="1696462876561" />
     </e>
     <e n="$Undo">
-      <i c="129" l="1696471441396" />
+      <i c="130" l="1699634840543" />
     </e>
     <e n="CloseProject">
       <i c="1" l="1698363172718" />
@@ -19,10 +19,10 @@
       <i c="6" l="1696461635025" />
     </e>
     <e n="EditorBackSpace">
-      <i c="586" l="1696472533515" />
+      <i c="647" l="1699635901103" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="30" l="1696471163068" />
+      <i c="34" l="1699635833199" />
     </e>
     <e n="EditorCodeBlockEnd">
       <i c="1" l="1696382944199" />
@@ -31,10 +31,10 @@
       <i c="1" l="1696382950306" />
     </e>
     <e n="EditorCopy">
-      <i c="8" l="1696471435972" />
+      <i c="10" l="1699634842307" />
     </e>
     <e n="EditorCut">
-      <i c="14" l="1696471823639" />
+      <i c="15" l="1699634835814" />
     </e>
     <e n="EditorDelete">
       <i c="33" l="1696471460671" />
@@ -43,19 +43,19 @@
       <i c="1" l="1696460585576" />
     </e>
     <e n="EditorDown">
-      <i c="92" l="1696472448698" />
+      <i c="95" l="1699634980495" />
     </e>
     <e n="EditorDownWithSelection">
       <i c="1" l="1696472446986" />
     </e>
     <e n="EditorEnter">
-      <i c="81" l="1696472511438" />
+      <i c="104" l="1699635899791" />
     </e>
     <e n="EditorIndentSelection">
       <i c="4" l="1696472447615" />
     </e>
     <e n="EditorLeft">
-      <i c="257" l="1696472570208" />
+      <i c="271" l="1699635892911" />
     </e>
     <e n="EditorLeftWithSelection">
       <i c="14" l="1696467582212" />
@@ -70,28 +70,28 @@
       <i c="1" l="1696468524484" />
     </e>
     <e n="EditorPaste">
-      <i c="27" l="1696471830536" />
+      <i c="28" l="1699634843924" />
     </e>
     <e n="EditorPreviousWord">
-      <i c="24" l="1696469277291" />
+      <i c="51" l="1699635897647" />
     </e>
     <e n="EditorPreviousWordWithSelection">
       <i c="2" l="1696460315689" />
     </e>
     <e n="EditorRight">
-      <i c="253" l="1696472511007" />
+      <i c="270" l="1699635569495" />
     </e>
     <e n="EditorSelectWord">
       <i c="1" l="1696469331608" />
     </e>
     <e n="EditorTab">
-      <i c="18" l="1696472449727" />
+      <i c="20" l="1699635576700" />
     </e>
     <e n="EditorTabsEntryPoint">
       <i c="2" l="1696461868839" />
     </e>
     <e n="EditorUp">
-      <i c="99" l="1696472449343" />
+      <i c="105" l="1699635897195" />
     </e>
     <e n="EditorUpWithSelection">
       <i c="4" l="1696472445850" />
@@ -109,7 +109,7 @@
       <i c="6" l="1696462219920" />
     </e>
     <e n="SaveAll">
-      <i c="64" l="1696472520555" />
+      <i c="75" l="1699635902543" />
     </e>
     <e n="SettingsEntryPoint">
       <i c="3" l="1696460723408" />
@@ -132,8 +132,11 @@
     <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
       <i c="2" l="1696460725624" />
     </e>
+    <e n="com.intellij.ide.plugins.PluginManagerMain$3">
+      <i c="1" l="1699634096177" />
+    </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="2" l="1698509231124" />
+      <i c="3" l="1699633220902" />
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$MarkupModelDelegateAction">
       <i c="2" l="1696461828517" />
@@ -142,7 +145,7 @@
       <i c="6" l="1696462340169" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="9" l="1698363284736" />
+      <i c="16" l="1699635526073" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
       <i c="1" l="1696089025178" />
@@ -154,13 +157,13 @@
       <i c="1" l="1696088954737" />
     </e>
     <e n="com.intellij.terminal.actions.TerminalActionWrapper">
-      <i c="5" l="1696472192649" />
+      <i c="6" l="1699634688951" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="1" l="1696461353582" />
+      <i c="3" l="1699634537553" />
     </e>
     <e n="copilot.applyInlays">
-      <i c="63" l="1696472519375" />
+      <i c="75" l="1699635862384" />
     </e>
   </component>
 </application>

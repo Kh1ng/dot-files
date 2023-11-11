@@ -3,9 +3,13 @@
 2 screens: Width=1738
 
 [KFileDialog Settings]
-Recent Files[$e]=0SQZSOj.jpeg,file:$HOME/Pictures/wallpapers/0007.jpg,file:$HOME/Pictures/wallpapers/6S4OtIN.jpeg,file:$HOME/Pictures/wallpapers/6ehv767.jpeg,file:$HOME/Pictures/wallpapers/6eaZOze.jpeg,file:$HOME/Pictures/wallpapers/0006.jpg,file:$HOME/Pictures/wallpapers/5PaLXkG.jpeg,file:$HOME/Pictures/wallpapers/0005.jpg,file:$HOME/Pictures/wallpapers/4nZt623.jpeg,file:$HOME/Pictures/wallpapers/0004.jpg,file:$HOME/Pictures/wallpapers/3NOEKEv.jpeg,file:$HOME/Pictures/wallpapers/0003.jpg,file:$HOME/Pictures/wallpapers/2F4iNVK.png,file:$HOME/Pictures/wallpapers/0002.jpg,file:$HOME/Pictures/wallpapers/0001.jpg,file:$HOME/Pictures/wallpapers/0SQZSOj.jpeg
-Recent URLs[$e]=file:$HOME/Pictures/wallpapers/
+Recent Files[$e]=0SQZSOj.jpeg,file:$HOME/Pictures/84def944-ed2d-4629-b4a2-07d2bb206d47.png,file:$HOME/Pictures/wallpapers/0007.jpg,file:$HOME/Pictures/wallpapers/6S4OtIN.jpeg,file:$HOME/Pictures/wallpapers/6ehv767.jpeg,file:$HOME/Pictures/wallpapers/6eaZOze.jpeg,file:$HOME/Pictures/wallpapers/0006.jpg,file:$HOME/Pictures/wallpapers/5PaLXkG.jpeg,file:$HOME/Pictures/wallpapers/0005.jpg,file:$HOME/Pictures/wallpapers/4nZt623.jpeg,file:$HOME/Pictures/wallpapers/0004.jpg,file:$HOME/Pictures/wallpapers/3NOEKEv.jpeg,file:$HOME/Pictures/wallpapers/0003.jpg,file:$HOME/Pictures/wallpapers/2F4iNVK.png,file:$HOME/Pictures/wallpapers/0002.jpg,file:$HOME/Pictures/wallpapers/0001.jpg
+Recent URLs[$e]=file:$HOME/Pictures/wallpapers/,file:$HOME/Pictures/
 iconViewIconSize=64
+
+[KPropertiesDialog]
+2 screens: Height=524
+2 screens: Width=469
 
 [PlasmaTransientsConfig]
 PreloadWeight=42
