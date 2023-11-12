@@ -1,89 +1,22 @@
-2023/11/01-22:09:39.591 7ec0 Reusing MANIFEST /home/khing/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/11/01-22:09:39.591 7ec0 Recovering log #131
-2023/11/01-22:09:39.592 7ec0 Reusing old log /home/khing/.config/discord/Local Storage/leveldb/000131.log 
-2023/11/01-22:15:11.285 8031 Level-0 table #135: started
-2023/11/01-22:15:11.309 8031 Level-0 table #135: 2091163 bytes OK
-2023/11/01-22:15:11.313 8031 Delete type=0 #131
-2023/11/01-22:15:11.315 8031 Compacting 4@0 + 2@1 files
-2023/11/01-22:15:11.343 8031 Generated table #136@0: 28 keys, 4039724 bytes
-2023/11/01-22:15:11.345 8031 Generated table #137@0: 108 keys, 97509 bytes
-2023/11/01-22:15:11.345 8031 Compacted 4@0 + 2@1 files => 4137233 bytes
-2023/11/01-22:15:11.347 8031 compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/11/01-22:15:11.347 8031 Delete type=2 #132
-2023/11/01-22:15:11.347 8031 Delete type=2 #135
-2023/11/01-22:15:11.347 8031 Delete type=2 #126
-2023/11/01-22:15:11.347 8031 Delete type=2 #130
-2023/11/01-22:15:11.347 8031 Delete type=2 #128
-2023/11/01-22:15:11.347 8031 Delete type=2 #125
-2023/11/02-18:11:33.895 8031 Level-0 table #139: started
-2023/11/02-18:11:33.911 8031 Level-0 table #139: 1990523 bytes OK
-2023/11/02-18:11:33.915 8031 Delete type=0 #134
-2023/11/02-22:10:06.334 8031 Level-0 table #141: started
-2023/11/02-22:10:06.350 8031 Level-0 table #141: 1982162 bytes OK
-2023/11/02-22:10:06.355 8031 Delete type=0 #138
-2023/11/04-04:10:06.359 8031 Level-0 table #143: started
-2023/11/04-04:10:06.372 8031 Level-0 table #143: 1978313 bytes OK
-2023/11/04-04:10:06.374 8031 Delete type=0 #140
-2023/11/04-15:04:44.859 8031 Level-0 table #145: started
-2023/11/04-15:04:44.866 8031 Level-0 table #145: 37039 bytes OK
-2023/11/04-15:04:44.871 8031 Delete type=0 #142
-2023/11/04-15:04:44.871 8031 Compacting 4@0 + 2@1 files
-2023/11/04-15:04:44.898 8031 Generated table #146@0: 28 keys, 4042970 bytes
-2023/11/04-15:04:44.899 8031 Generated table #147@0: 108 keys, 97754 bytes
-2023/11/04-15:04:44.899 8031 Compacted 4@0 + 2@1 files => 4140724 bytes
-2023/11/04-15:04:44.900 8031 compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/11/04-15:04:44.901 8031 Delete type=2 #145
-2023/11/04-15:04:44.901 8031 Delete type=2 #136
-2023/11/04-15:04:44.901 8031 Delete type=2 #137
-2023/11/04-15:04:44.901 8031 Delete type=2 #141
-2023/11/04-15:04:44.901 8031 Delete type=2 #139
-2023/11/04-15:04:44.901 8031 Delete type=2 #143
-2023/11/04-15:30:36.583 8031 Level-0 table #149: started
-2023/11/04-15:30:36.592 8031 Level-0 table #149: 38058 bytes OK
-2023/11/04-15:30:36.595 8031 Delete type=0 #144
-2023/11/04-20:55:07.229 8031 Level-0 table #151: started
-2023/11/04-20:55:07.240 8031 Level-0 table #151: 35834 bytes OK
-2023/11/04-20:55:07.243 8031 Delete type=0 #148
-2023/11/04-20:59:51.202 229d4 Level-0 table #153: started
-2023/11/04-20:59:51.213 229d4 Level-0 table #153: 28222 bytes OK
-2023/11/04-20:59:51.218 229d4 Delete type=0 #150
-2023/11/04-22:49:07.423 2331f Level-0 table #155: started
-2023/11/04-22:49:07.441 2331f Level-0 table #155: 1987908 bytes OK
-2023/11/04-22:49:07.446 2331f Delete type=0 #152
-2023/11/04-22:49:07.446 2331f Compacting 4@0 + 2@1 files
-2023/11/04-22:49:07.484 2331f Generated table #156@0: 28 keys, 4043988 bytes
-2023/11/04-22:49:07.486 2331f Generated table #157@0: 108 keys, 97771 bytes
-2023/11/04-22:49:07.486 2331f Compacted 4@0 + 2@1 files => 4141759 bytes
-2023/11/04-22:49:07.487 2331f compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/11/04-22:49:07.487 2331f Delete type=2 #151
-2023/11/04-22:49:07.487 2331f Delete type=2 #153
-2023/11/04-22:49:07.487 2331f Delete type=2 #149
-2023/11/04-22:49:07.487 2331f Delete type=2 #146
-2023/11/04-22:49:07.487 2331f Delete type=2 #147
-2023/11/04-22:49:07.487 2331f Delete type=2 #155
-2023/11/05-05:33:07.079 2331f Level-0 table #159: started
-2023/11/05-05:33:07.090 2331f Level-0 table #159: 33504 bytes OK
-2023/11/05-05:33:07.094 2331f Delete type=0 #154
-2023/11/05-12:36:10.003 2331f Level-0 table #161: started
-2023/11/05-12:36:10.006 2331f Level-0 table #161: 31504 bytes OK
-2023/11/05-12:36:10.009 2331f Delete type=0 #158
-2023/11/05-14:32:17.630 2331f Level-0 table #163: started
-2023/11/05-14:32:17.639 2331f Level-0 table #163: 31851 bytes OK
-2023/11/05-14:32:17.643 2331f Delete type=0 #160
-2023/11/05-15:27:57.590 2331f Level-0 table #165: started
-2023/11/05-15:27:57.592 2331f Level-0 table #165: 34093 bytes OK
-2023/11/05-15:27:57.595 2331f Delete type=0 #162
-2023/11/05-15:27:57.595 2331f Compacting 4@0 + 2@1 files
-2023/11/05-15:27:57.622 2331f Generated table #166@0: 28 keys, 4044242 bytes
-2023/11/05-15:27:57.624 2331f Generated table #167@0: 108 keys, 98980 bytes
-2023/11/05-15:27:57.624 2331f Compacted 4@0 + 2@1 files => 4143222 bytes
-2023/11/05-15:27:57.625 2331f compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/11/05-15:27:57.625 2331f Delete type=2 #165
-2023/11/05-15:27:57.625 2331f Delete type=2 #161
-2023/11/05-15:27:57.625 2331f Delete type=2 #159
-2023/11/05-15:27:57.625 2331f Delete type=2 #157
-2023/11/05-15:27:57.625 2331f Delete type=2 #156
-2023/11/05-15:27:57.625 2331f Delete type=2 #163
-2023/11/06-05:45:09.061 49611 Level-0 table #169: started
-2023/11/06-05:45:09.077 49611 Level-0 table #169: 1993951 bytes OK
-2023/11/06-05:45:09.082 49611 Delete type=0 #164
+2023/11/11-17:07:55.332 e2d7 Reusing MANIFEST /home/khing/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/11/11-17:07:55.332 e2d7 Recovering log #168
+2023/11/11-17:07:55.332 e2d7 Level-0 table #171: started
+2023/11/11-17:07:55.335 e2d7 Level-0 table #171: 27275 bytes OK
+2023/11/11-17:07:55.336 e2d7 Delete type=0 #168
+2023/11/11-17:09:54.319 e3fd Level-0 table #174: started
+2023/11/11-17:09:54.334 e3fd Level-0 table #174: 649705 bytes OK
+2023/11/11-17:09:54.338 e3fd Delete type=0 #172
+2023/11/11-17:13:08.510 e3fd Level-0 table #176: started
+2023/11/11-17:13:08.532 e3fd Level-0 table #176: 2650074 bytes OK
+2023/11/11-17:13:08.537 e3fd Delete type=0 #173
+2023/11/11-17:13:08.538 e3fd Compacting 4@0 + 2@1 files
+2023/11/11-17:13:08.560 e3fd Generated table #177@0: 28 keys, 2651857 bytes
+2023/11/11-17:13:08.562 e3fd Generated table #178@0: 108 keys, 97952 bytes
+2023/11/11-17:13:08.562 e3fd Compacted 4@0 + 2@1 files => 2749809 bytes
+2023/11/11-17:13:08.563 e3fd compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/11/11-17:13:08.563 e3fd Delete type=2 #169
+2023/11/11-17:13:08.563 e3fd Delete type=2 #166
+2023/11/11-17:13:08.563 e3fd Delete type=2 #167
+2023/11/11-17:13:08.563 e3fd Delete type=2 #171
+2023/11/11-17:13:08.563 e3fd Delete type=2 #176
+2023/11/11-17:13:08.563 e3fd Delete type=2 #174
