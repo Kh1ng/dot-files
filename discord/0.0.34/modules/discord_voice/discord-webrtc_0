@@ -6206,3 +6206,8 @@ Render pre processor: 0
 [2023-11-11 17:31:21.863] [58193] (audio_device_impl.cc:619): output: 1
 [2023-11-11 17:31:21.863] [58193] (audio_device_impl.cc:624): SetStereoPlayout(1)
 [2023-11-11 17:31:21.863] [58193] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-11-11 19:09:32.982] [58145] (discord.cpp:772): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-11-11 19:09:33.097] [58145] (discord.cpp:772): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 115 ms"]
+[2023-11-11 19:09:33.097] [58145] (discord.cpp:772): JS console: ["%c[GatewaySocket]","[RESUME] resuming session dc9b8d0f47535a6914a9a6ac7f7cae3a, seq: 9612"]
+[2023-11-11 19:09:33.137] [58145] (discord.cpp:772): JS console: ["%c[GatewaySocket]","[RESUMED] took 155ms, replayed 1 events, new seq: 9613"]
+[2023-11-11 19:09:33.171] [58145] (discord.cpp:772): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
